@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='flex justify-between items-center text-white p-4 relative'>
+    <nav className={`w-full flex justify-between items-center text-white p-4 fixed z-40 ${navbar ? '' : 'backdrop-blur-lg'}`}>
         {/* Left Side */}
         <div className='flex justify-center items-center gap-3'>
           <img src={ACMLogo} alt="ACM Logo" className='h-[55px] w-[55px]' />
@@ -22,8 +22,8 @@ const Navbar = () => {
         </div>
         {/* Right Side */}
         <ul className='hidden md:flex gap-6 text-md pr-4'>
-            <li className='navbar-li'>Home</li>
-            <li className='navbar-li'>About Us</li>
+            <li className='navbar-li'><a href="#Home">Home</a></li>
+            <li className='navbar-li'><a href="#About">About Us</a></li>
             <li className='navbar-li'>Team</li>
             <li className='navbar-li'>Events</li>
             <li className='navbar-li'>Blogs</li>
@@ -33,7 +33,7 @@ const Navbar = () => {
 
         <BiMenuAltRight className='md:hidden cursor-pointer z-10' onClick={handleNav} color='white' size={35} />
 
-        <ul className={`absolute top-0 left-0 pt-10 w-full z-10 backdrop-blur-lg flex flex-col justify-center items-center gap-4 py-6 text-xl transition-all duration-300 md:hidden ${navbar ? 'translate-x-0 shadow-xl' : 'translate-x-[-100%] shadow-none'} `}>
+        <ul className={`absolute top-0 left-0 pt-10 z-50 backdrop-blur-lg w-full flex flex-col justify-center items-center gap-4 py-6 text-xl transition-all duration-300 md:hidden ${navbar ? 'translate-x-0' : 'translate-x-[-100%]'} `}>
             
             <AiOutlineClose className='absolute top-5 right-5 cursor-pointer' color='white' size={35} onClick={handleNav} />
             <li className='navbar-li border-b-[1px] border-b-gray-500'>Home</li>

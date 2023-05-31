@@ -3,7 +3,7 @@ import ACM_3D from '../assets/Logos/ACM-3D-Model.png'
 
 const Hero = () => {
   return (
-    <div className='w-full h-full max-w-[1440px] mx-auto flex flex-col md:flex-row p-4 pt-10 relative'>
+    <div id='Home' className='w-full h-full max-w-[1440px] mx-auto flex flex-col md:flex-row p-4 pt-10 relative mt-24'>
       <div className='flex gap-10 w-full md:w-3/5'>
         <div className='flex flex-col justify-center items-center'>
           <div className='bg-[#10BED5] w-[40px] md:w-[50px] h-[40px] md:h-[50px] rounded-full blue__glow' />

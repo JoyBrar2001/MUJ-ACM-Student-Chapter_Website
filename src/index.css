@@ -9,6 +9,10 @@
   font-family: 'Montserrat';
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .white__gradient{
   background: rgba(255, 255, 255, 0.10);
   filter: blur(150px);
@@ -49,6 +53,6 @@
 
 @layer components{
   .navbar-li{
-    @apply text-gray-300 hover:text-white transition-all duration-150;
+    @apply text-gray-300 cursor-pointer hover:text-white transition-all duration-150;
   }
 }
