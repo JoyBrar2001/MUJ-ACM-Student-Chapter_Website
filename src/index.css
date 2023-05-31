@@ -31,6 +31,15 @@
   filter: blur(376.5px);
 }
 
+.about__gradient{
+  background: linear-gradient(105.56deg, #131341 0%, #0067A5 100%);
+  box-shadow: 0px 4px 100px rgba(0, 85, 137, 0.4);
+}
+
+.about__element__gradient{
+  background: linear-gradient(90deg, #19C1D7 0%, #005662 100%);
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }
