@@ -1,6 +1,5 @@
 import React from 'react'
 import { CoreList, ExecList } from '../constants/data'
-import Soham from '../assets/Team/Exec/Soham.png'
 
 const CreateExecCard = ({name, position, image}) => {
     return (

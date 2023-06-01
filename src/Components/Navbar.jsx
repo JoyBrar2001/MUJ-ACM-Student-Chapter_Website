@@ -11,7 +11,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className={`w-full flex justify-between items-center text-white p-4 fixed z-40 ${navbar ? '' : 'backdrop-blur-lg'}`}>
+    <nav className={`w-full flex justify-between items-center text-white p-4 fixed z-40 ${navbar ? '' : 'backdrop-blur-md'}`}>
         {/* Left Side */}
         <div className='flex justify-center items-center gap-3'>
           <img src={ACMLogo} alt="ACM Logo" className='h-[55px] w-[55px]' />
