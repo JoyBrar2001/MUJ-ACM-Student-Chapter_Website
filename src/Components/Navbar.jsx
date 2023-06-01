@@ -21,10 +21,10 @@ const Navbar = () => {
           </div>
         </div>
         {/* Right Side */}
-        <ul className='hidden md:flex gap-6 text-md pr-4'>
+        <ul className='hidden md:flex gap-6 text-md pr-4 z-10'>
             <li className='navbar-li'><a href="#Home">Home</a></li>
             <li className='navbar-li'><a href="#About">About Us</a></li>
-            <li className='navbar-li'>Team</li>
+            <li className='navbar-li'><a href="#Team">Team</a></li>
             <li className='navbar-li'>Events</li>
             <li className='navbar-li'>Blogs</li>
             <li className='navbar-li'>Projects</li>

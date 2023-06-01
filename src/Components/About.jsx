@@ -6,7 +6,8 @@ const CreateLine = () => (
 
 const About = () => {
   return (
-    <div id='About' className='w-full p-6 mt-10 relative'>
+    <div id='About' className='w-full h-full p-6 mt-10 relative'>
+        <div className='absolute w-[600px] h-[600px] blue__gradient right-0 bottom-0 translate-x-[50%]' />
         <div className='about__gradient w-full h-full py-10 px-14 max-w-[1440px] mx-auto rounded-[40px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-20'>
             {/* Row 1 */}
             <div className='col-span-1 flex flex-col gap-4 pt-4'>
@@ -35,7 +36,6 @@ const About = () => {
                 <p className='text-base text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo placeat delectus ipsam quibusdam rerum nisi eligendi possimus iure autem!</p>
             </div>
         </div>
-        <div className='absolute w-[600px] h-[600px] blue__gradient right-0 bottom-0 translate-x-[50%]' />
 
     </div>
   )
