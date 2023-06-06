@@ -38,7 +38,14 @@ const About = () => {
         </motion.p>
 
         {/* Row 2 */}
-        <h1 className='text-6xl uppercase md:col-span-2 lg:col-span-3 font-bold text-white'>Some. Ache. Words. Here.</h1>
+        <motion.h1 
+          variants={fadeIn('down', 40, 0.5)}
+          initial="hidden"
+          whileInView="show"
+          className='text-6xl uppercase md:col-span-2 lg:col-span-3 font-bold text-white'
+        >
+          Some. Ache. Words. Here.
+          </motion.h1>
 
         {/* Row 3 */}
         <motion.div 

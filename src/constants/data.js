@@ -11,26 +11,31 @@ import Vidushi from '../assets/Team/Core/Vidushi.png'
 
 export const ExecList = [
     {
+        id: 0,
         name: 'Soham Dixit',
         position: 'Chairperson',
         image: Soham,
     },
     {
+        id: 1,
         name: 'Purvanshi',
         position: 'Vice-Chairperson',
         image: Purvanshi,
     },
     {
+        id: 2,
         name: 'Vishesh Aggarwal',
         position: 'General Secretary',
         image: Vishesh,
     },
     {
+        id: 3,
         name: 'Dhruv Arora',
         position: 'Treasurer',
         image: Dhruv,
     },
     {
+        id: 4,
         name: 'Joy Brar',
         position: 'Webmaster',
         image: Joy,
@@ -39,21 +44,25 @@ export const ExecList = [
 
 export const CoreList = [
     {
+        id: 0,
         name: 'Ananya Tomar',
         position: 'Deputy Secretary',
         image: Ananya,
     },
     {
+        id: 1,
         name: 'Kushar Bajaj',
         position: 'Head of Operations',
         image: Kushar,
     },
     {
+        id: 2,
         name: 'Priyansh Goel',
         position: 'Technical Head',
         image: Priyansh,
     },
     {
+        id: 3,
         name: 'Vidushi',
         position: 'Membership Chair',
         image: Vidushi,
