@@ -6,7 +6,6 @@ import Team from './Components/Team'
 import { useScroll, motion, useMotionValueEvent, useSpring } from 'framer-motion'
 
 const App = () => {
-  
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 50 })
 
