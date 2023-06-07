@@ -68,3 +68,31 @@ export const CoreList = [
         image: Vidushi,
     },
 ]
+
+export const EventsList = [
+    {
+        id: 'event-1',
+        name: 'Elicit',
+        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    },
+    {
+        id: 'event-2',
+        name: 'Elicit',
+        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    },
+    {
+        id: 'event-3',
+        name: 'Elicit',
+        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    },
+    {
+        id: 'event-4',
+        name: 'Elicit',
+        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    },
+    {
+        id: 'event-5',
+        name: 'Elicit',
+        desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    },
+]
