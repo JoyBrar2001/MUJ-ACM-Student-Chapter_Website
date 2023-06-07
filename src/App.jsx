@@ -4,6 +4,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Team from './Components/Team'
 import { useScroll, motion, useMotionValueEvent, useSpring } from 'framer-motion'
+import Events from './Components/Events'
 
 const App = () => {
   const { scrollYProgress } = useScroll()
@@ -16,6 +17,7 @@ const App = () => {
       <Hero />
       <About />
       <Team />
+      <Events />
     </div>
   )
 }
