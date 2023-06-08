@@ -6,7 +6,7 @@ import { fadeIn } from '../constants/motion'
 const CreateEventCard = ({ id, index, name, desc, active, handleHover }) => {
     return (
         <motion.div
-            variants={fadeIn('down', 40, 0.5, index * 0.1)}
+            variants={fadeIn('down', 0, 0.5, index * 0.1)}
             initial="hidden"
             whileInView="show"
             id={id} 
