@@ -1,10 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../constants/motion'
-
-const CreateLine = () => (
-  <div className='w-[70px] h-[8px] about__element__gradient' />
-)
+import CreateLine from '../components/CreateLine'
 
 const About = () => {
   return (

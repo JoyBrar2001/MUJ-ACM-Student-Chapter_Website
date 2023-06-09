@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Components/Navbar'
-import Hero from './Components/Hero'
-import About from './Components/About'
-import Team from './Components/Team'
+import Navbar from './Pages/Navbar'
+import Hero from './Pages/Hero'
+import About from './Pages/About'
+import Team from './Pages/Team'
+import Events from './Pages/Events'
 import { useScroll, motion, useMotionValueEvent, useSpring } from 'framer-motion'
-import Events from './Components/Events'
 
 const App = () => {
   const { scrollYProgress } = useScroll()

@@ -18,7 +18,7 @@ export const ExecList = [
     },
     {
         id: 1,
-        name: 'Purvanshi',
+        name: 'Purvanshi Goyal',
         position: 'Vice-Chairperson',
         image: Purvanshi,
     },
