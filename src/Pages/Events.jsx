@@ -19,7 +19,7 @@ const Events = () => {
         Our Events
       </motion.h1>
 
-      <div className='flex flex-col md:flex-row min-h-screen w-full gap-4'>
+      <div className='flex flex-col md:flex-row w-full gap-4'>
         {EventsList.map((event, index) => (
             <EventCard key={index} index={index} handleHover={setActive} active={active} {...event} />
         ))}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../constants/motion'
+import { BsArrowUpRight } from 'react-icons/bs'
 
 const EventCard = ({ id, index, name, image, desc, active, handleHover }) => {
   return (
@@ -19,6 +20,7 @@ const EventCard = ({ id, index, name, image, desc, active, handleHover }) => {
         <div className='absolute w-full rounded-xl bottom-0 bg-black/50 backdrop-blur-sm text-white p-4'>
           <h3 className='text-4xl font-bold my-4'>{name}</h3>
           <p className='mb-2'>{desc}</p>
+          <p className='flex justify-start items-center gap-1 text-xs opacity-80'>View More<BsArrowUpRight /></p>
         </div>
       )}
     </motion.div>
