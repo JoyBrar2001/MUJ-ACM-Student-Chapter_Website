@@ -32,7 +32,7 @@ const Navbar = () => {
         <li className='navbar-li'><a href="#Home">Home</a></li>
         <li className='navbar-li'><a href="#About">About Us</a></li>
         <li className='navbar-li'><a href="#Team">Team</a></li>
-        <li className='navbar-li'>Events</li>
+        <li className='navbar-li'><a href="#Events"></a></li>
         <li className='navbar-li'>Blogs</li>
         <li className='navbar-li'>Projects</li>
         <li className='navbar-li'>Contact Us</li>

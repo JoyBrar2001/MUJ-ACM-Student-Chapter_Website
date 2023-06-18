@@ -8,7 +8,7 @@ const Events = () => {
     const [active, setActive] = useState('event-2')
 
   return (
-    <div className='w-full h-full max-w-[1440px] mx-auto flex flex-col p-4 pt-10 relative mt-24'>
+    <div id="Events" className='w-full h-full max-w-[1440px] mx-auto flex flex-col p-4 pt-10 relative mt-24'>
       <div className='absolute w-[600px] h-[600px] blue__gradient right-0 top-0 translate-x-[-100%]' />
       <motion.h1 
       variants={fadeIn('down', 40, 0.5)}
@@ -19,7 +19,7 @@ const Events = () => {
         Our Events
       </motion.h1>
 
-      <div className='flex flex-col md:flex-row w-full gap-4'>
+      <div className='flex flex-col md:flex-row max-md:min-h-screen w-full gap-4'>
         {EventsList.map((event, index) => (
             <EventCard key={index} index={index} handleHover={setActive} active={active} {...event} />
         ))}
