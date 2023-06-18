@@ -9,6 +9,12 @@ import Kushar from '../assets/Team/Core/Kushar.png'
 import Priyansh from '../assets/Team/Core/Priyansh.png'
 import Vidushi from '../assets/Team/Core/Vidushi.png'
 
+import Decrypt from '../assets/EventPosters/Decrypt-1.png'
+import Hacks from '../assets/EventPosters/Hacks6-1.png'
+import Elicit from '../assets/EventPosters/Elicit-1.png'
+import Defi from '../assets/EventPosters/Defi-1.png'
+import VoiceOfTech from '../assets/EventPosters/Voice.png'
+
 export const ExecList = [
     {
         id: 0,
@@ -72,27 +78,32 @@ export const CoreList = [
 export const EventsList = [
     {
         id: 'event-1',
-        name: 'Elicit',
+        name: 'Decrypt',
+        image: Decrypt,
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
     },
     {
         id: 'event-2',
-        name: 'Elicit',
+        name: 'Hacks',
+        image: Hacks,
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
     },
     {
         id: 'event-3',
         name: 'Elicit',
+        image: Elicit,
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
     },
     {
         id: 'event-4',
-        name: 'Elicit',
+        name: 'Defi Hacks',
+        image: Defi,
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
     },
     {
         id: 'event-5',
-        name: 'Elicit',
+        name: 'Voice of Tech',
+        image: VoiceOfTech,
         desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
     },
 ]

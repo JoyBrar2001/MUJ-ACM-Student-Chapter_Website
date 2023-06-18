@@ -4,7 +4,7 @@ import Hero from './Pages/Hero'
 import About from './Pages/About'
 import Team from './Pages/Team'
 import Events from './Pages/Events'
-import { useScroll, motion, useMotionValueEvent, useSpring } from 'framer-motion'
+import { useScroll, motion, useSpring } from 'framer-motion'
 
 const App = () => {
   const { scrollYProgress } = useScroll()
