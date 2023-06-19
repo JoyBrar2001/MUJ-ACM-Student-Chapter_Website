@@ -17,19 +17,19 @@ const ExecCard = ({ name, position, image, id, linkedin, github, instagram }) =>
         className='flex flex-col justify-center items-center gap-4 
         absolute top-8 -right-6 p-3 
         bg-gradient-to-b from-white/10 to-white/5 rounded-2xl 
-        -translate-x-10 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300'
+        -translate-x-16 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300'
       >
         <a href={linkedin} target='_blank'>
-          <img src={Linkedin} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-100' alt="Linkedin" />
+          <img src={Linkedin} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-150' alt="Linkedin" />
         </a>
         <a href={github} target='_blank'>
-          <img src={Github} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-150 bg-white rounded-full' alt="Github" />
+          <img src={Github} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-200 bg-white rounded-full' alt="Github" />
         </a>
         <a href={instagram} target='_blank'>
-          <img src={Instgram} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-200' alt="Instagram" />
+          <img src={Instgram} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-300' alt="Instagram" />
         </a>
       </div>
-      <img src={image} className='w-[280px] mx-auto' alt={name} />
+      <img src={image} className='w-[280px] mx-auto z-10' alt={name} />
       <div className='team__card__content rounded-3xl flex flex-col text-center text-white py-4 px-4'>
         <h1 className='font-bold text-3xl'>{name}</h1>
         <h3 className='font-normal text-lg'>{position}</h3>
