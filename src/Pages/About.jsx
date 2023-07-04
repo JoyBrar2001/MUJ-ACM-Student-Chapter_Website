@@ -4,7 +4,7 @@ import { fadeIn } from '../constants/motion'
 import CreateLine from '../components/CreateLine'
 
 const About = () => {
-  return (
+    return (
     <motion.div
       id='About'
       variants={fadeIn('down', 100, 1)}

@@ -14,10 +14,10 @@ const ExecCard = ({ name, position, image, id, linkedin, github, instagram }) =>
       className='team__card__bg flex flex-col rounded-3xl pt-3 group'
     >
       <div 
-        className='flex flex-col justify-center items-center gap-4 
+        className='flex flex-col justify-center items-center gap-4
         absolute top-8 -right-6 p-3 
         bg-gradient-to-b from-white/10 to-white/5 rounded-2xl 
-        -translate-x-16 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300'
+        -translate-x-16 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 z-30'
       >
         <a href={linkedin} target='_blank'>
           <img src={Linkedin} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-150' alt="Linkedin" />
