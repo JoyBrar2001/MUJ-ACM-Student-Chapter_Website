@@ -7,7 +7,7 @@ const App = () => {
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 50 })
 
   return (
-    <div className='bg-black w-full min-h-screen overflow-x-hidden'>
+    <div className='bg-black w-full overflow-x-hidden'>
       <motion.div className='fixed h-2 w-full bg-[#20bbd2] z-[1000] origin-left overflow-y-hidden' style={{ scaleX, boxShadow: `0px 0px 10px rgba(22,178,207,0.5)` }} />
       <Navbar />
       <Hero />
