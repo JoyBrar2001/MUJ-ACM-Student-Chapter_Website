@@ -22,7 +22,7 @@ export const ExecList = [
         position: 'Chairperson',
         image: Soham,
         linkedin: "https://www.linkedin.com/in/soham-dixit-0879461b0",
-        github: "https://github.com/LoudScimator10",
+        github: "https://github.com/loudscimitor",
         instagram: "https://instagram.com/sohamdixit__?igshid=MzNlNGNkZWQ4Mg==",
     },
     {
@@ -39,9 +39,9 @@ export const ExecList = [
         name: 'Vishesh Aggarwal',
         position: 'General Secretary',
         image: Vishesh,
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/01visheshaggarwal/",
         github: "",
-        instagram: "",
+        instagram: "https://www.instagram.com/visheshaggarwal_/",
     },
     {
         id: 3,
