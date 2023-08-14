@@ -5,6 +5,7 @@ import Team from './Team'
 import Events from './Events'
 import Projects from './Projects'
 import Blogs from './Blogs'
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -14,4 +15,5 @@ export {
     Events,
     Projects,
     Blogs,
+    Footer,
 }

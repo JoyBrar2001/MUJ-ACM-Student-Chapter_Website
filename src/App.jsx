@@ -1,6 +1,6 @@
 import React from 'react'
 import { useScroll, motion, useSpring } from 'framer-motion'
-import { Navbar, Hero, About, Team, Events, Projects, Blogs } from './Pages'
+import { Navbar, Hero, About, Team, Events, Projects, Blogs, Footer } from './Pages'
 
 const App = () => {
   const { scrollYProgress } = useScroll()
@@ -16,6 +16,7 @@ const App = () => {
       <Events />
       <Projects />
       <Blogs />
+      <Footer />
     </div>
   )
 }
