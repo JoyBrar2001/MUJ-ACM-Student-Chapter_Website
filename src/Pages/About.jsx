@@ -31,7 +31,7 @@ const About = () => {
           whileInView="show"
           className='text-base text-gray-400 lg:col-span-2'
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+          The Association for Computing Machinery (ACM) stands at the forefront of the computing world as world’s largest educational and scientific computing society.<br /> With a rich history and an expansive network, ACM is dedicated to advancing computing as a discipline and profession. Through its commitment to research, education, and collaboration, ACM serves as a vital hub for connecting computing professionals, fostering innovation, and promoting ethical practices.
         </motion.p>
 
         {/* Row 2 */}
@@ -41,8 +41,8 @@ const About = () => {
           whileInView="show"
           className='text-6xl uppercase md:col-span-2 lg:col-span-3 font-bold text-white'
         >
-          Some. Ache. Words. Here.
-          </motion.h1>
+          Innovate. Achieve. Empower.
+        </motion.h1>
 
         {/* Row 3 */}
         <motion.div 
@@ -53,7 +53,7 @@ const About = () => {
         >
           <CreateLine />
           <h1 className='text-4xl font-bold text-white'>About MUJ</h1>
-          <p className='text-base text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo placeat delectus ipsam quibusdam rerum nisi eligendi possimus iure autem!</p>
+          <p className='text-base text-gray-400'>Built on academic excellence and innovation, Manipal University Jaipur offers a range of undergraduate, postgraduate, and doctoral programs. Our campus is a hub of learning, ideas, collaborations, and cultural exchange. We embrace sportsmanship and create unforgettable experiences.</p>
         </motion.div>
         <motion.div 
           className='flex flex-col gap-4'
@@ -63,7 +63,7 @@ const About = () => {
         >
           <CreateLine />
           <h1 className='text-4xl font-bold text-white'>Our Aim</h1>
-          <p className='text-base text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo placeat delectus ipsam quibusdam rerum nisi eligendi possimus iure autem!</p>
+          <p className='text-base text-gray-400'>Our aim is to create a dynamic and collaborative space where technology enthusiasts can come together to explore, learn, and innovate. Through workshops, projects, and knowledge-sharing sessions, we strive to enhance our members technical skills and foster a culture of continuous learning.</p>
         </motion.div>
         <motion.div 
           className='flex flex-col gap-4'
@@ -73,7 +73,7 @@ const About = () => {
         >
           <CreateLine />
           <h1 className='text-4xl font-bold text-white'>Our Mission</h1>
-          <p className='text-base text-gray-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos illo placeat delectus ipsam quibusdam rerum nisi eligendi possimus iure autem!</p>
+          <p className='text-base text-gray-400'>Bridging academia and industry, we unite theory and application, nurturing holistic professionals. Through teamwork, leadership, and ethics, we develop individuals who grasp work's broader impact, blending technical prowess with a wider perspective for a more comprehensive approach.</p>
         </motion.div>
       </div>
 

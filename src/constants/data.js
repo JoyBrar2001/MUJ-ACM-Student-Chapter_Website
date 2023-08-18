@@ -1,19 +1,19 @@
-import Soham from '../assets/Team/Exec/Soham.png'
-import Purvanshi from '../assets/Team/Exec/Purvanshi.png'
-import Vishesh from '../assets/Team/Exec/Vishesh.png'
-import Dhruv from '../assets/Team/Exec/Dhruv.png'
-import Joy from '../assets/Team/Exec/Joy.png'
+import Soham from '../assets/Team/Exec/Soham.png';
+import Purvanshi from '../assets/Team/Exec/Purvanshi.png';
+import Vishesh from '../assets/Team/Exec/Vishesh.png';
+import Dhruv from '../assets/Team/Exec/Dhruv.png';
+import Joy from '../assets/Team/Exec/Joy.png';
 
-import Ananya from '../assets/Team/Core/Ananya.png'
-import Kushar from '../assets/Team/Core/Kushar.png'
-import Priyansh from '../assets/Team/Core/Priyansh.png'
-import Vidushi from '../assets/Team/Core/Vidushi.png'
+import Ananya from '../assets/Team/Core/Ananya.png';
+import Kushar from '../assets/Team/Core/Kushar.png';
+import Priyansh from '../assets/Team/Core/Priyansh.png';
+import Vidushi from '../assets/Team/Core/Vidushi.png';
 
-import Decrypt from '../assets/EventPosters/Decrypt-1.png'
-import Hacks from '../assets/EventPosters/Hacks6-1.png'
-import Elicit from '../assets/EventPosters/Elicit-1.png'
-import Defi from '../assets/EventPosters/Defi-1.png'
-import VoiceOfTech from '../assets/EventPosters/Voice.png'
+import Decrypt from '../assets/EventPosters/Decrypt-1.png';
+import Hacks from '../assets/EventPosters/Hacks6-1.png';
+import Elicit from '../assets/EventPosters/Elicit-1.png';
+import Defi from '../assets/EventPosters/Defi-1.png';
+import VoiceOfTech from '../assets/EventPosters/Voice.png';
 
 export const ExecList = [
   {
@@ -88,7 +88,7 @@ export const CoreList = [
     position: 'Membership Chair',
     image: Vidushi,
   },
-]
+];
 
 export const EventsList = [
   {
@@ -121,4 +121,4 @@ export const EventsList = [
     image: VoiceOfTech,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
-]
+];

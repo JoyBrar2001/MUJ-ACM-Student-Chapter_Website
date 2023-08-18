@@ -17,7 +17,7 @@ const Navbar = () => {
       variants={fadeIn('down', 0, 1, 1.3)}
       initial="hidden"
       whileInView="show"
-      className={`w-full flex justify-between items-center text-white p-4 fixed z-40 ${navbar ? '' : 'backdrop-blur-md'}`}
+      className={`w-full flex justify-between items-center text-white p-4 fixed z-40 bg-gradient-to-b from-black via-black-70 via-50% to-transparent`}
     >
       {/* Left Side */}
       <div className='flex justify-center items-center gap-3'>
@@ -53,8 +53,8 @@ const Navbar = () => {
       </ul>
 
       {/* Gradients */}
-      <div className='absolute white__gradient w-[500px] h-[500px] top-0 left-0 translate-x-[-50%] translate-y-[-60%]' />
-      <div className='absolute white__gradient w-[900px] h-[500px] top-0 right-0 translate-x-[50%] translate-y-[-50%]' />
+      {/* <div className='absolute white__gradient w-[500px] h-[500px] top-0 left-0 translate-x-[-50%] translate-y-[-60%]' /> */}
+      {/* <div className='absolute white__gradient w-[900px] h-[500px] top-0 right-0 translate-x-[50%] translate-y-[-50%]' /> */}
     </motion.nav>
   )
 }

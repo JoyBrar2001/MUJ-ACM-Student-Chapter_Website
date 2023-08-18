@@ -8,11 +8,11 @@ const Hero = () => {
     <div id='Home' className='w-full h-full max-w-[1440px] mx-auto flex flex-col md:flex-row p-4 pt-10 relative mt-24'>
       <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
       <div className='flex gap-10 w-full md:w-3/5'>
-        <motion.div 
-        variants={fadeIn('down', 50, 1)}
-        initial="hidden"
-        whileInView="show"
-        className='flex flex-col justify-center items-center'
+        <motion.div
+          variants={fadeIn('down', 50, 1)}
+          initial="hidden"
+          whileInView="show"
+          className='flex flex-col justify-center items-center'
         >
           <div className='bg-[#10BED5] w-[40px] md:w-[50px] h-[40px] md:h-[50px] rounded-full blue__glow' />
           <div className='bg-gradient-to-b from-[#10BED5] w-[7px] md:w-[9px] h-[400px] md:h-[500px] mt-[-2px]' />
