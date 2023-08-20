@@ -32,7 +32,7 @@ const Hero = () => {
             whileInView="show"
             className='text-gray-400 text-base mt-4 w-[80%]'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eaque dolorum vel dolor consequuntur harum mollitia perspiciatis dolores quaerat voluptatibus nisi cupiditate fuga voluptatem libero nam, recusandae laboriosam repellendus sequi facilis tempora. Quos quia, dicta cum tempora vero maxime ratione ipsam. Voluptatum aperiam dolores fugiat pariatur quibusdam dolor vitae impedit.
+            We the ACM Student Chapter are a dynamic community of tech enthusiasts driven by a shared passion to explore the multifaceted world of computing. Here, we believe that teamwork is not just a concept, it's the essence that propels us towards greatness. With a focus on nurturing talent and promoting learning, the ACM S chapter provides a platform for students to dive into technical challenges, engage in collaborative projects, and interact with industry professionals. Through a spectrum of workshops, hackathons and networking events, the ACM S chapter empowers students to refine their skills.
           </motion.p>
         </div>
 
