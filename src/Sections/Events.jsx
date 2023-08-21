@@ -14,7 +14,7 @@ const Events = () => {
       variants={fadeIn('down', 40, 0.5)}
       initial="hidden"
       whileInView="show"
-      className='team__title__gradient text-center text-7xl font-bold my-12 uppercase w-full'
+      className='team__title__gradient titleStyles mb-12 w-full'
       >
         Our Events
       </motion.h1>

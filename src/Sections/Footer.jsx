@@ -5,7 +5,7 @@ import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <div className='about__gradient w-full py-10 rounded-t-3xl grid grid-cols-3'>
+    <div className='about__gradient w-full py-10 px-6 rounded-t-3xl gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
       <div className='flex justify-center items-center gap-6'>
         <img src={ACMLogo} className='h-[85px] w-[85px]' alt="ACM Logo" />
         <div className='flex flex-col text-white'>

@@ -85,4 +85,8 @@ html{
   .navbar-li{
     @apply text-gray-300 cursor-pointer hover:text-white transition-all duration-150;
   }
+
+  .titleStyles{
+    @apply text-center text-6xl md:text-7xl lg:text-7xl font-bold uppercase;
+  }
 }

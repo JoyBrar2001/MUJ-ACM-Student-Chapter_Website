@@ -17,7 +17,7 @@ const EventCard = ({ id, index, name, image, desc, active, handleHover }) => {
       {active !== id ? (
         <h3 className='absolute bottom-8 left-0 -rotate-90 text-left text-white text-2xl font-bold shadow-3xl'>{name}</h3>
       ) : (
-        <div className='absolute w-full rounded-xl bottom-0 bg-black/50 backdrop-blur-sm text-white p-4'>
+        <div className='absolute w-full rounded-xl left-0 bottom-0 bg-black/70 backdrop-blur-sm text-white p-4'>
           <h3 className='text-4xl font-bold my-4'>{name}</h3>
           <p className='mb-2'>{desc}</p>
           <p className='flex justify-start items-center gap-1 text-xs opacity-80'>View More<BsArrowUpRight /></p>

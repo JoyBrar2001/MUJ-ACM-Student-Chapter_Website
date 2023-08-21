@@ -13,7 +13,7 @@ const Team = () => {
       variants={fadeIn('down', 40, 0.5)}
       initial="hidden"
       whileInView="show"
-      className='team__title__gradient text-center text-7xl font-bold mt-12 mb-8 uppercase'
+      className='team__title__gradient titleStyles mt-12 mb-8 '
       >
         The Team
       </motion.h1>

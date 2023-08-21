@@ -4,6 +4,7 @@ import { BiMenuAltRight } from 'react-icons/bi'
 import ACMLogo from '../assets/Logos/ACM-Logo-White.png';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -29,11 +30,11 @@ const Navbar = () => {
       </div>
       {/* Right Side */}
       <ul className='hidden md:flex gap-6 text-md pr-4 z-10'>
-        <li className='navbar-li'><a href="#Home">Home</a></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/">Home</Link></li>
         <li className='navbar-li'><a href="#About">About Us</a></li>
-        <li className='navbar-li'><a href="#Team">Team</a></li>
-        <li className='navbar-li'><a href="#Events">Events</a></li>
-        <li className='navbar-li'>Blogs</li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/team">Team</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/events">Events</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/blogs">Blogs</Link></li>
         <li className='navbar-li'>Projects</li>
         <li className='navbar-li'>Contact Us</li>
       </ul>
