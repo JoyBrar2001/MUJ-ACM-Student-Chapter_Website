@@ -2,6 +2,7 @@ import React from 'react'
 import ACM_3D from '../assets/Logos/ACM-3D-Model.png'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../constants/motion'
+import ACMLogo3D from '../components/ACMLogo3D'
 
 const Hero = () => {
   return (
@@ -38,14 +39,15 @@ const Hero = () => {
 
       </div>
 
-      <div className='flex justify-center items-center md:items-start w-full md:w-2/5'>
-        <motion.img
+      <div className='flex justify-center items-center md:items-start w-full -mt-10 md:w-2/5'>
+        {/* <motion.img
           variants={fadeIn('right', 100, 1, 0.7)}
           initial="hidden"
           whileInView="show"
           src={ACM_3D}
           className='w-[400px] md:w-[500px] img-blue__glow' alt="ACM Logo"
-        />
+        /> */}
+        <ACMLogo3D />
       </div>
 
     </div>
