@@ -16,11 +16,13 @@ const ProjectsCard = ({ id, index, title, description }) => {
         <img src={ProjectImg} className='w-full h-full object-cover' alt={title} />
       </div>
       <div className='flex-1 p-8'>
-        <h1 className='text-3xl font-bold'>{title}</h1>
+        <h1 className='text-3xl text-white font-bold'>{title}</h1>
         <p className='text-sm text-[#ececec] mt-3'>
           {id != 'Project-1' ? description.slice(0,200) + '...' : description.slice(0,600) + '...'}
         </p>
-        <p className='flex w-full justify-end items-center gap-1 text-xs opacity-80 mt-auto absolute cursor-pointer bottom-4 right-4'>View More<BsArrowUpRight /></p>
+        <p className='flex w-full justify-end items-center gap-1 text-xs text-white opacity-80 mt-auto absolute cursor-pointer bottom-4 right-4'>
+          View More <BsArrowUpRight />
+        </p>
       </div>
     </motion.div>
   );

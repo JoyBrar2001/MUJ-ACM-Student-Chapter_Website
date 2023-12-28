@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage'
 import TeamPage from './pages/TeamPage'
 import EventsPage from './pages/EventsPage'
 import BlogsPage from './pages/BlogsPage'
+import ProjectsPage from './pages/ProjectsPage'
 
 const App = () => {
   const { scrollYProgress } = useScroll()
@@ -22,6 +23,7 @@ const App = () => {
         <Route path='/MUJ-ACM-Student-Chapter_Website/team' element={<TeamPage />} />
         <Route path='/MUJ-ACM-Student-Chapter_Website/events' element={<EventsPage />} />
         <Route path='/MUJ-ACM-Student-Chapter_Website/blogs' element={<BlogsPage />} />
+        <Route path='/MUJ-ACM-Student-Chapter_Website/projects' element={<ProjectsPage />} />
       </Routes>
 
       <Footer />

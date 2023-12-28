@@ -16,6 +16,9 @@ import Elicit from '../assets/EventPosters/Elicit-1.png';
 import Defi from '../assets/EventPosters/Defi-1.png';
 import VoiceOfTech from '../assets/EventPosters/Voice.png';
 
+import Divya from '../assets/TeamHeads/CommunityManager/Divya.png';
+import Sneha from '../assets/TeamHeads/CommunityManager/Sneha.png';
+
 export const ExecList = [
   {
     id: 0,
@@ -94,7 +97,7 @@ export const CoreList = [
 export const EventsList = [
   {
     id: 'event-1',
-    name: 'Sigfest',
+    name: 'SIGFEST',
     image: Decrypt,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
@@ -106,7 +109,7 @@ export const EventsList = [
   },
   {
     id: 'event-3',
-    name: 'Elicit 3.0',
+    name: 'ELICIT \'23',
     image: Elicit,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
@@ -152,3 +155,24 @@ export const ProjectsList = [
   },
 ];
 
+export const TeamHeadsList = [
+  {
+    id: 0,
+    team: 'Community Managers',
+    heads: [
+      {
+        id: 0,
+        photo: Divya,
+        name: 'Divya Pawa',
+        post: 'Community Manager',
+      },
+      {
+        id: 1,
+        photo: Sneha,
+        name: 'Sneha Bhatia',
+        post: 'Community Manager',
+      },
+    ]
+  },
+
+];
