@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
 import { BsArrowUpRight } from 'react-icons/bs';
 import ProjectsCard from '../components/ProjectsCard';
+import { ProjectsList } from '../constants/data';
 
 const Projects = () => {
   return (
@@ -16,13 +17,10 @@ const Projects = () => {
         Projects
       </motion.h1>
 
-      <div className='flex justify-center items-center gap-10 flex-wrap'>
-        <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
+      <div className='grid grid-cols-2 gap-10 w-full'>
+        {ProjectsList.slice(0,3).map((element, index) => (
+          <ProjectsCard key={index} index={index} {...element} />
+        ))}
       </div>
     </div>
   );

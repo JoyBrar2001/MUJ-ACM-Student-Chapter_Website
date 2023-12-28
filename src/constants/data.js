@@ -7,7 +7,8 @@ import Joy from '../assets/Team/Exec/Joy.png';
 import Ananya from '../assets/Team/Core/Ananya.png';
 import Kushar from '../assets/Team/Core/Kushar.png';
 import Priyansh from '../assets/Team/Core/Priyansh.png';
-import Vidushi from '../assets/Team/Core/Vidushi.png';
+// import Vidushi from '../assets/Team/Core/Vidushi.png';
+import Yash from '../assets/Team/Core/Yash.png';
 
 import Decrypt from '../assets/EventPosters/Decrypt-1.png';
 import Hacks from '../assets/EventPosters/Hacks6-1.png';
@@ -84,9 +85,9 @@ export const CoreList = [
   },
   {
     id: 3,
-    name: 'Vidushi',
+    name: 'Yash Dhruv',
     position: 'Membership Chair',
-    image: Vidushi,
+    image: Yash,
   },
 ];
 
@@ -99,7 +100,7 @@ export const EventsList = [
   },
   {
     id: 'event-2',
-    name: 'Hacks 8.0',
+    name: 'Hacks',
     image: Hacks,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
@@ -117,8 +118,37 @@ export const EventsList = [
   },
   {
     id: 'event-5',
-    name: 'Event 5',
+    name: 'ACM India Chapter Summit \'23',
     image: VoiceOfTech,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
 ];
+
+export const ProjectsList = [
+  {
+    id: 'Project-1',
+    title: 'Task vision',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam.',
+  },
+  {
+    id: 'Project-2',
+    title: 'QR code generator',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam.',
+  },
+  {
+    id: 'Project-3',
+    title: 'Sight Scope',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam.',
+  },
+  {
+    id: 'Project-4',
+    title: 'Reinforcement learning based trading bot',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam.',
+  },
+  {
+    id: 'Project-3',
+    title: 'NLP based system for prior authorisation',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi molestiae eveniet corporis ut nostrum dicta autem maxime animi ipsum illo, eos quia aut at nesciunt cum fugit facere repudiandae suscipit officia. Quam fugit blanditiis nam iste sed obcaecati rem asperiores mollitia aliquam nisi! Iure, delectus! Aut est voluptatem sit laboriosam.',
+  },
+];
+
