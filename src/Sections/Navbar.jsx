@@ -36,7 +36,7 @@ const Navbar = () => {
         <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/events">Events</Link></li>
         <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/blogs">Blogs</Link></li>
         <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/projects">Projects</Link></li>
-        <li className='navbar-li'>Contact Us</li>
+        <li className='navbar-li'><a href="#Footer">Contact Us</a></li>
       </ul>
 
       <BiMenuAltRight className='md:hidden cursor-pointer z-10' onClick={handleNav} color='white' size={35} />

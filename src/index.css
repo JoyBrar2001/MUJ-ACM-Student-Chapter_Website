@@ -63,6 +63,10 @@ html{
   background: linear-gradient(290.29deg, #131644 4.13%, #0166A3 86.88%);
 }
 
+.teamhead__card__bg{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+  filter: drop-shadow(0px 0px 179px rgba(1, 102, 163, 0.1));
+}
 
 ::-webkit-scrollbar {
   width: 0px;
