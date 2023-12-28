@@ -93,31 +93,31 @@ export const CoreList = [
 export const EventsList = [
   {
     id: 'event-1',
-    name: 'Decrypt',
+    name: 'Sigfest',
     image: Decrypt,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
   {
     id: 'event-2',
-    name: 'Hacks',
+    name: 'Hacks 8.0',
     image: Hacks,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
   {
     id: 'event-3',
-    name: 'Elicit',
+    name: 'Elicit 3.0',
     image: Elicit,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
   {
     id: 'event-4',
-    name: 'Defi Hacks',
+    name: 'ISDS \'23',
     image: Defi,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
   {
     id: 'event-5',
-    name: 'Voice of Tech',
+    name: 'Event 5',
     image: VoiceOfTech,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },

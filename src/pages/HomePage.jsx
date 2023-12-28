@@ -14,7 +14,7 @@ const HomePage = () => {
       <Team />
       <Events />
       <Projects />
-      <Blogs />
+      {/* <Blogs /> */}
     </div>
   )
 }

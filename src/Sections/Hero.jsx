@@ -40,14 +40,14 @@ const Hero = () => {
       </div>
 
       <div className='flex justify-center items-center md:items-start w-full -mt-10 md:w-2/5'>
-        {/* <motion.img
+        <motion.img
           variants={fadeIn('right', 100, 1, 0.7)}
           initial="hidden"
           whileInView="show"
           src={ACM_3D}
           className='w-[400px] md:w-[500px] img-blue__glow' alt="ACM Logo"
-        /> */}
-        <ACMLogo3D />
+        />
+        {/* <ACMLogo3D /> */}
       </div>
 
     </div>
