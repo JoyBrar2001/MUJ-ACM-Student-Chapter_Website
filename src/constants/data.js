@@ -16,7 +16,10 @@ import Elicit from '../assets/EventPosters/Elicit-1.png';
 import Defi from '../assets/EventPosters/Defi-1.png';
 import VoiceOfTech from '../assets/EventPosters/Voice.png';
 
-import ProjTemp from '../assets/Project.jpg'
+import ProjTemp from '../assets/Project.jpg';
+
+import ReinforcementLearningBasedTradingBot from  '../assets/Projects/ReinforcementLearningBasedTradingBot.png';
+import BluetoothCar from  '../assets/Projects/BluetoothCar.jpeg';
 import StockAndoirdForXiaomiPhones from  '../assets/Projects/StockAndoirdForXiaomiPhones.png';
 import CncAutomaticDrawingMachine from  '../assets/Projects/CncAutomaticDrawingMachine.jpeg';
 import RoboticArm from  '../assets/Projects/RoboticArm.jpeg';
@@ -32,6 +35,12 @@ import DhruvBareja from '../assets/TeamHeads/Events/Dhruv.png';
 import Divyansh from '../assets/TeamHeads/Events/Divyansh.png';
 import Eish from '../assets/TeamHeads/Events/Eish.png';
 import Smriti from '../assets/TeamHeads/Events/Smriti.png';
+
+import Akanksha from '../assets/TeamHeads/Finance/Akanksha.png';
+import Arya from '../assets/TeamHeads/Finance/Arya.png';
+import Ridima from '../assets/TeamHeads/Finance/Ridima.png';
+import Shubh from '../assets/TeamHeads/Finance/Shubh.png';
+import Tarun from '../assets/TeamHeads/Finance/Tarun.png';
 
 export const ExecList = [
   {
@@ -150,9 +159,9 @@ export const ProjectsList = [
   },
   {
     id: 'Project-2',
-    photo: ProjTemp,
-    title: 'QR code generator',
-    description: 'Amidst the cutting-edge tapestry of ACM Xperience, this project transcends conventional QR code applications by harnessing the prowess of generative AI techniques. Employing advanced Generative Adversarial Networks (GANs), it seamlessly integrates dynamic QR codes into images. This groundbreaking fusion of technology and artistry introduces distinctive and aesthetically pleasing methods, elevating the incorporation of QR codes into visual content to new technical heights.',
+    photo: BluetoothCar,
+    title: 'Bluetooh Car',
+    description: 'Under the realm of ACM Xperience, the amalgamation of Arduino and Bluetooth technology manifests in a remote-controlled car project. Beyond its recreational appeal, this initiative embodies a practical application of embedded systems and wireless communication within the domain of robotics.',
   },
   {
     id: 'Project-3',
@@ -162,7 +171,7 @@ export const ProjectsList = [
   },
   {
     id: 'Project-4',
-    photo: ProjTemp,
+    photo: ReinforcementLearningBasedTradingBot,
     title: 'Reinforcement learning based trading bot',
     description: 'Within the realm of ACM Xperience, this project redefines stock trading strategies by leveraging reinforcement learning for intelligent decision-making. Adapting and learning from market conditions, it exemplifies the transformative potential of AI in optimizing trading algorithms and decision processes.',
   },
@@ -256,6 +265,42 @@ export const TeamHeadsList = [
         photo: Eish,
         name: 'Eish Aggarwal',
         post: 'Deputy Head of Events',
+      },
+    ]
+  },
+  {
+    id: 2,
+    teamName: 'Finance',
+    heads: [
+      {
+        id: 0,
+        photo: Akanksha,
+        name: 'Akanksha Kumari',
+        post: 'Head of Finance & Registrations',
+      },
+      {
+        id: 1,
+        photo: Arya,
+        name: 'Arya Aditya',
+        post: 'Head of Finance & Registrations',
+      },
+      {
+        id: 2,
+        photo: Ridima,
+        name: 'Ridima Garg',
+        post: 'Deputy Head of Finance & Registrations',
+      },
+      {
+        id: 3,
+        photo: Shubh,
+        name: 'Shubh Gupta',
+        post: 'Deputy Head of Finance & Registrations',
+      },
+      {
+        id: 4,
+        photo: Tarun,
+        name: 'Tarun Gupta',
+        post: 'Deputy Head of Finance & Registrations',
       },
     ]
   },
