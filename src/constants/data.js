@@ -55,10 +55,14 @@ import Yashashvi from '../assets/TeamHeads/DigitalMarketing/Yashashvi.png';
 
 // Curations
 import Sujal from '../assets/TeamHeads/Curations/Sujal.png';
+import AnanyaManan from '../assets/TeamHeads/Curations/Ananya.png';
 
 // Temp
 import ProjTemp from '../assets/Project.jpg';
 import EventTemp from '../assets/EventTemp.jpg';
+
+// Elicit Event Logos
+import OpeningCeremony from '../assets/ElicitEvents/OpeningCeremony.png';
 
 export const ExecList = [
   {
@@ -362,6 +366,12 @@ export const TeamHeadsList = [
         name: 'Sujal Dali',
         post: 'Head of Curations',
       },
+      {
+        id: 2,
+        photo: AnanyaManan,
+        name: 'Ananya Manan',
+        post: 'Head of Curations',
+      },
     ]
   },
 ];
@@ -371,8 +381,9 @@ export const ElicitEvents = [
     id: 0,
     name: 'Opening Ceremony',
     date: '29th September, 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    description: 'MUJ ACM\'s techno-cultural fest commenced with event organizers setting the stage, followed by illuminating keynote speeches from various faculties. The IEASTE International Exchange students\' panel discussion delved into emerging trends and transformative innovations. Amidst this, TMC delivered captivating performances, transcending auditory delight. This chapter of MUJ ACM\'s fest was a celebration of technology, inspiration, and cultural fusion, leaving attendees enthralled.',
     image: EventTemp,
+    logo: OpeningCeremony, 
   },
   {
     id: 1,
@@ -385,42 +396,42 @@ export const ElicitEvents = [
     id: 2,
     name: 'Impromptu',
     date: '30th September, 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    description: 'Im-Prompt-O unfolded as a captivating overnight odyssey into generative AI, engaging over 200 participants. Exploring cutting-edge models and experimenting with diverse AI technologies, attendees received expert guidance, fostering collaborative innovation. This hands-on event culminated in the development and presentation of unique AI models, creating a transformative experience for AI enthusiasts, developers, students, and professionals. Im-Prompt-O served as a powerful platform, converging creativity and technology, and forging connections among like-minded individuals who witnessed the enchantment of generative AI.',
     image: EventTemp,
   },
   {
     id: 3,
     name: 'Gamers Asylum',
     date: '29th September, 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    description: 'MUJ\'s eSports event unfolded as a glorious showcase, featuring popular games like Valorant and FIFA, aiming to elevate the campus\'s gaming ecosystem. Strategic gameplay and vibrant community engagement defined the event, breaking limitations and propelling eSports to new heights. This triumph left an enduring impact, contributing to the sustained growth of competitive gaming within the MUJ community. As participants reflected, it became evident that this event played a pivotal role in shaping the ongoing legacy of eSports at MUJ.',
     image: EventTemp,
   },
   {
     id: 4,
     name: 'Elicit Expo',
     date: '1st October, 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    description: 'Elicit Expo showcased an impressive array of tech projects, featuring innovative hardware and software creations. Participants passionately presented their technological prowess, engaging attendees with cutting-edge demonstrations. The expo provided a platform for knowledge exchange, fostering a dynamic environment where ideas thrived. Elicit Expo, with its diverse tech exhibits, offered a glimpse into the technological advancements and creative ingenuity that defined the event.',
     image: EventTemp,
   },
   {
     id: 5,
     name: 'RoboSoccer',
     date: '1st October, 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    description: 'RoboSoccer captivated participants in a thrilling fusion of robotics and soccer. Teams, meticulously crafting and programming robots, competed on the field with precision. The robotic players showcased agility and strategic prowess, demonstrating the culmination of technical skill and sportsmanship. The event, with its electrifying atmosphere, successfully united technology enthusiasts in a spirited and dynamic robotic soccer competition, leaving a lasting impact on participants and spectators alike.',
     image: EventTemp,
   },
   {
     id: 6,
     name: 'UX Evolve',
     date: '1st October, 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    description: 'Embark on a transformative odyssey with UX EVOLVE—an overnight event that transcended the boundaries of UI/UX design challenges. Participants were immersed in a captivating experience, skillfully crafting mesmerizing websites while fostering unparalleled collaboration. In this competitive haven, participants of all skill levels engaged in valuable hands-on activities, ensuring a night of learning and innovation. As digital creations came to life, UX EVOLVE reached its zenith, a glorious celebration of design excellence that served as a dynamic platform for both seasoned professionals and newcomers. It highlighted the influential synergy between creativity and collaboration, defining a new standard in the ever-evolving landscape of design.',
     image: EventTemp,
   },
   {
     id: 7,
     name: 'Polysis',
     date: '1st October, 2023',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    description: 'In an extraordinary overnight spectacle, participants plunged into an enthralling competition, transcending the realms of problem-solving and analytical prowess. This one-of-a-kind event showcased their innovative solutions to complex real-world challenges. Immersed in intricate case studies, enthusiasts analyzed and unraveled problems, presenting their findings to a discerning panel of judges. This dynamic platform not only elevated participants\' problem-solving expertise but also allowed them to demonstrate unparalleled analytical finesse, leaving a lasting impact with their inventive solutions. The overnight journey became a glorious testament to the brilliance and resilience of minds committed to pushing the boundaries of innovation.',
     image: EventTemp,
   },
 ];

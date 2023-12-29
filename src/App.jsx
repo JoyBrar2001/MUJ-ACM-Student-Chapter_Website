@@ -1,12 +1,7 @@
 import React, { lazy, Suspense } from 'react'
 import { useScroll, motion, useSpring } from 'framer-motion'
-import { Navbar, Hero, About, Team, Events, Projects, Blogs, Footer } from './Sections'
+import { Navbar, Footer } from './Sections'
 import { Route, Router, Routes } from 'react-router-dom'
-// import HomePage from './pages/HomePage'
-// import TeamPage from './pages/TeamPage'
-// import EventsPage from './pages/EventsPage'
-// import BlogsPage from './pages/BlogsPage'
-// import ProjectsPage from './pages/ProjectsPage'
 const HomePage = React.lazy(() => import('./pages/HomePage'));
 const TeamPage = React.lazy(() => import('./pages/TeamPage'));
 const EventsPage = React.lazy(() => import('./pages/EventsPage'));
@@ -24,6 +19,7 @@ const App = () => {
 
       {/* Main Section where all the content is rendered */}
       <Routes>
+        {/* Home Page */}
         <Route
           path='/MUJ-ACM-Student-Chapter_Website/'
           element={
@@ -32,6 +28,7 @@ const App = () => {
             </React.Suspense>
           }
         />
+        {/* Team Page */}
         <Route
           path='/MUJ-ACM-Student-Chapter_Website/team'
           element={
@@ -40,6 +37,7 @@ const App = () => {
             </React.Suspense>
           }
         />
+        {/* Events Page */}
         <Route
           path='/MUJ-ACM-Student-Chapter_Website/events'
           element={
@@ -48,6 +46,7 @@ const App = () => {
             </React.Suspense>
           }
         />
+        {/* Blogs Page */}
         <Route
           path='/MUJ-ACM-Student-Chapter_Website/blogs'
           element={
@@ -56,6 +55,7 @@ const App = () => {
             </React.Suspense>
           }
         />
+        {/* Projects Page */}
         <Route
           path='/MUJ-ACM-Student-Chapter_Website/projects'
           element={
