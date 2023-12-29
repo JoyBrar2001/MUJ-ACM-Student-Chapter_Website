@@ -30,7 +30,7 @@ const EventsPage = () => {
               contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.1)' }}
               date={event.date}
               iconStyle={{ background: 'black', color: '#fff' }}
-              icon={event.logo ? <img src={event.logo} className='w-full h-full'/> : null}
+              icon={event.logo ? <img src={event.logo} className='w-full h-full rounded-full'/> : null}
             >
               <div>
                 <h3 className="text-2xl font-bold">{event.name}</h3>
