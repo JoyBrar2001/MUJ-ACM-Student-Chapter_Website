@@ -7,6 +7,7 @@ import { fadeIn } from '../constants/motion';
 const ProjectsPage = () => {
   return (
     <div className='w-full h-full max-w-[1440px] mx-auto flex flex-col p-4 pt-10 relative mt-6 mb-32'>
+      <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
       <motion.h1
         variants={fadeIn('down', 40, 0.5)}
         initial="hidden"
@@ -21,6 +22,7 @@ const ProjectsPage = () => {
           <ProjectsCard key={index} index={index} {...element} />
         ))}
       </div>
+      <div className='absolute w-[600px] h-[600px] blue__gradient bg-white bottom-0' />
     </div>
   );
 }

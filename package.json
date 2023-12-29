@@ -16,6 +16,7 @@
     "react-icons": "^4.9.0",
     "react-router-dom": "^6.15.0",
     "react-three-fiber": "^6.0.13",
+    "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.155.0",
     "three-orbitcontrols": "^2.110.3"
   },

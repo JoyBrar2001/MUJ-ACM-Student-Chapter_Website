@@ -42,6 +42,12 @@ import Ridima from '../assets/TeamHeads/Finance/Ridima.png';
 import Shubh from '../assets/TeamHeads/Finance/Shubh.png';
 import Tarun from '../assets/TeamHeads/Finance/Tarun.png';
 
+import Nishchay from '../assets/TeamHeads/DigitalMarketing/Nishchay.png';
+import Pragati from '../assets/TeamHeads/DigitalMarketing/Pragati.png';
+import Yashashvi from '../assets/TeamHeads/DigitalMarketing/Yashashvi.png';
+
+import EventTemp from '../assets/EventTemp.jpg';
+
 export const ExecList = [
   {
     id: 0,
@@ -303,5 +309,88 @@ export const TeamHeadsList = [
         post: 'Deputy Head of Finance & Registrations',
       },
     ]
+  },
+  {
+    id: 3,
+    teamName: 'Digital Marketing',
+    heads: [
+      {
+        id: 0,
+        photo: Nishchay,
+        name: 'Nishchay Lamba',
+        post: 'Head of Digital Marketing',
+      },
+      {
+        id: 1,
+        photo: Pragati,
+        name: 'Pragati Pandey',
+        post: 'Head of Digital Marketing',
+      },
+      {
+        id: 2,
+        photo: Yashashvi,
+        name: 'Yashashvi Saaran',
+        post: 'Head of Digital Marketing',
+      },
+    ]
+  },
+];
+
+export const ElicitEvents = [
+  {
+    id: 0,
+    name: 'Opening Ceremony',
+    date: '29th September, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
+  },
+  {
+    id: 1,
+    name: 'Hacks 8.0',
+    date: '30th September, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
+  },
+  {
+    id: 2,
+    name: 'Impromptu',
+    date: '30th September, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
+  },
+  {
+    id: 3,
+    name: 'Gamers Asylum',
+    date: '29th September, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
+  },
+  {
+    id: 4,
+    name: 'Elicit Expo',
+    date: '1st October, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
+  },
+  {
+    id: 5,
+    name: 'RoboSoccer',
+    date: '1st October, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
+  },
+  {
+    id: 6,
+    name: 'UX Evolve',
+    date: '1st October, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
+  },
+  {
+    id: 7,
+    name: 'Polysis',
+    date: '1st October, 2023',
+    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptatibus libero veritatis illo et mollitia quo possimus commodi? Magni, dolores?',
+    image: EventTemp,
   },
 ];
