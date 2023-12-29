@@ -34,7 +34,7 @@ const EventsPage = () => {
             >
               <div>
                 <h3 className="text-2xl font-bold">{event.name}</h3>
-                <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
                 <p className='text-sm font-light'>
                   {event.description}
                 </p>
