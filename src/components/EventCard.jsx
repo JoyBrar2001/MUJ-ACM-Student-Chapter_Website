@@ -1,19 +1,19 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../constants/motion'
-import { BsArrowUpRight } from 'react-icons/bs'
+import React from 'react';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../constants/motion';
+import { BsArrowUpRight } from 'react-icons/bs';
 
 const EventCard = ({ id, index, name, image, desc, active, handleHover }) => {
   return (
     <motion.div
       variants={fadeIn('down', 0, 0.5, index * 0.1)}
-      initial="hidden"
-      whileInView="show"
+      initial='hidden'
+      whileInView='show'
       id={id}
       className={`overflow-hidden h-[500px] relative rounded-xl cursor-pointer transition-all duration-300 ease-in-out ${id === active ? 'flex-[3] lg:flex-[3.5]' : 'flex-[1] lg:flex-[0.5]'}`}
       onMouseOver={() => handleHover(id)}
     >
-      <img src={image} alt={name} className="absolute w-full h-full object-cover" />
+      <img src={image} alt={name} className='absolute w-full h-full object-cover' loading='lazy' />
       {active !== id ? (
         <h3 className='absolute bottom-8 left-0 -rotate-90 text-left text-white text-2xl font-bold shadow-3xl'>{name}</h3>
       ) : (
@@ -24,7 +24,7 @@ const EventCard = ({ id, index, name, image, desc, active, handleHover }) => {
         </div>
       )}
     </motion.div>
-  )
+  );
 }
 
-export default EventCard
+export default EventCard;

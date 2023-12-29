@@ -29,7 +29,7 @@ const ExecCard = ({ name, position, image, id, linkedin, github, instagram }) =>
           <img src={Instgram} className='h-10 w-10 opacity-0 group-hover:opacity-100 duration-300 delay-300' alt="Instagram" />
         </a>
       </div>
-      <img src={image} className='w-[280px] mx-auto z-10' alt={name} />
+      <img src={image} className='w-[280px] mx-auto z-10' alt={name} loading='lazy' />
       <div className='team__card__content rounded-3xl flex flex-col text-center text-white py-4 px-4'>
         <h1 className='font-bold text-3xl'>{name}</h1>
         <h3 className='font-normal text-lg'>{position}</h3>

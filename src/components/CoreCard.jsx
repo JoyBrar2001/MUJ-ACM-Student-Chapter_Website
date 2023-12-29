@@ -10,7 +10,7 @@ const CoreCard = ({ name, position, image, id }) => {
       whileInView="show"
       className='team__card__bg flex flex-col rounded-3xl pt-3'
     >
-      <img src={image} className='w-[200px] mx-auto' alt={name} />
+      <img src={image} className='w-[200px] mx-auto' alt={name} loading='lazy' />
       <div className='team__card__content rounded-3xl flex flex-col text-center text-white py-4 px-4'>
         <h1 className='font-bold text-2xl'>{name}</h1>
         <h3 className='font-normal text-sm'>{position}</h3>

@@ -21,7 +21,7 @@ const Events = () => {
 
       <div className='flex flex-col md:flex-row max-md:min-h-screen w-full gap-4'>
         {EventsList.map((event, index) => (
-            <EventCard key={index} index={index} handleHover={setActive} active={active} {...event} />
+          <EventCard key={index} index={index} handleHover={setActive} active={active} {...event} />
         ))}
       </div>
     </div>

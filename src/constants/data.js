@@ -1,23 +1,26 @@
+// Exec Import
 import Soham from '../assets/Team/Exec/Soham.png';
 import Purvanshi from '../assets/Team/Exec/Purvanshi.png';
 import Vishesh from '../assets/Team/Exec/Vishesh.png';
 import Dhruv from '../assets/Team/Exec/Dhruv.png';
 import Joy from '../assets/Team/Exec/Joy.png';
 
+// Core Import
 import Ananya from '../assets/Team/Core/Ananya.png';
 import Kushar from '../assets/Team/Core/Kushar.png';
 import Priyansh from '../assets/Team/Core/Priyansh.png';
 // import Vidushi from '../assets/Team/Core/Vidushi.png';
 import Yash from '../assets/Team/Core/Yash.png';
 
+// Home Page Events
 import Decrypt from '../assets/EventPosters/Decrypt-1.png';
 import Hacks from '../assets/EventPosters/Hacks6-1.png';
 import Elicit from '../assets/EventPosters/Elicit-1.png';
 import Defi from '../assets/EventPosters/Defi-1.png';
 import VoiceOfTech from '../assets/EventPosters/Voice.png';
 
-import ProjTemp from '../assets/Project.jpg';
 
+// Project Photo Imports
 import ReinforcementLearningBasedTradingBot from  '../assets/Projects/ReinforcementLearningBasedTradingBot.png';
 import BluetoothCar from  '../assets/Projects/BluetoothCar.jpeg';
 import StockAndoirdForXiaomiPhones from  '../assets/Projects/StockAndoirdForXiaomiPhones.png';
@@ -26,26 +29,35 @@ import RoboticArm from  '../assets/Projects/RoboticArm.jpeg';
 import EyeTracker from  '../assets/Projects/EyeTracker.png';
 import TextExtractor from  '../assets/Projects/TextExtractor.png';
 
-
+// Team Head Import
+// Community Managers
 import Divya from '../assets/TeamHeads/CommunityManager/Divya.png';
 import Sneha from '../assets/TeamHeads/CommunityManager/Sneha.png';
 
+// Events
 import Aviral from '../assets/TeamHeads/Events/Aviral.png';
 import DhruvBareja from '../assets/TeamHeads/Events/Dhruv.png';
 import Divyansh from '../assets/TeamHeads/Events/Divyansh.png';
 import Eish from '../assets/TeamHeads/Events/Eish.png';
 import Smriti from '../assets/TeamHeads/Events/Smriti.png';
 
+// Finance and Registrations
 import Akanksha from '../assets/TeamHeads/Finance/Akanksha.png';
 import Arya from '../assets/TeamHeads/Finance/Arya.png';
 import Ridima from '../assets/TeamHeads/Finance/Ridima.png';
 import Shubh from '../assets/TeamHeads/Finance/Shubh.png';
 import Tarun from '../assets/TeamHeads/Finance/Tarun.png';
 
+// Digital Marketing
 import Nishchay from '../assets/TeamHeads/DigitalMarketing/Nishchay.png';
 import Pragati from '../assets/TeamHeads/DigitalMarketing/Pragati.png';
 import Yashashvi from '../assets/TeamHeads/DigitalMarketing/Yashashvi.png';
 
+// Curations
+import Sujal from '../assets/TeamHeads/Curations/Sujal.png';
+
+// Temp
+import ProjTemp from '../assets/Project.jpg';
 import EventTemp from '../assets/EventTemp.jpg';
 
 export const ExecList = [
@@ -331,6 +343,24 @@ export const TeamHeadsList = [
         photo: Yashashvi,
         name: 'Yashashvi Saaran',
         post: 'Head of Digital Marketing',
+      },
+    ]
+  },
+  {
+    id: 3,
+    teamName: 'Curations',
+    heads: [
+      {
+        id: 0,
+        photo: Pragati,
+        name: 'Pragati Pandey',
+        post: 'Head of Curations',
+      },
+      {
+        id: 1,
+        photo: Sujal,
+        name: 'Sujal Dali',
+        post: 'Head of Curations',
       },
     ]
   },

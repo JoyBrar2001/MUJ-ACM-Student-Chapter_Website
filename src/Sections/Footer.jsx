@@ -17,26 +17,23 @@ const Footer = () => {
       <div className='text-white flex flex-col gap-2 justify-center items-center'>
         <h1 className='text-2xl font-semibold'>Contact Us</h1>
         <div className='flex flex-col gap-1'>
-          <div className='flex justify-start items-center gap-2'>
+          <a href='https://www.instagram.com/muj_acm/' target='_blank' className='flex justify-start items-center gap-2'>
             <BsInstagram /> Instagram
-          </div>
-          <div className='flex justify-start items-center gap-2'>
-            <BsFacebook /> Facebook
-          </div>
-          <div className='flex justify-start items-center gap-2'>
-            <IoMdMail /> Mail Us
-          </div>
-          <div className='flex justify-start items-center gap-2'>
-            <BsTwitter /> Twitter
-          </div>
-          <div className='flex justify-start items-center gap-2'>
+          </a>
+          <a href='https://www.linkedin.com/company/muj-acm-student-chapter/?originalSubdomain=in' target='_blank' className='flex justify-start items-center gap-2'>
             <BsLinkedin /> LinkedIn
-          </div>
+          </a>
+          <a href='https://www.facebook.com/ACM.MUJ/' target='_blank' className='flex justify-start items-center gap-2'>
+            <BsFacebook /> Facebook
+          </a>
+          <a href='https://twitter.com/muj_acm?lang=en' target='_blank' className='flex justify-start items-center gap-2'>
+            <BsTwitter /> Twitter
+          </a>
         </div>
       </div>
       <div>Developed By</div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
