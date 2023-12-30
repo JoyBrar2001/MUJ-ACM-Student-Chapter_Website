@@ -40,17 +40,30 @@ const Navbar = () => {
       </ul>
 
       <BiMenuAltRight className='md:hidden cursor-pointer z-10' onClick={handleNav} color='white' size={35} />
-
-      <ul className={`absolute top-0 left-0 pt-10 z-50 backdrop-blur-lg w-full flex flex-col justify-center items-center gap-4 py-6 text-xl transition-all duration-300 md:hidden ${navbar ? 'translate-x-0' : 'translate-x-[-100%]'} `}>
-
+      <ul className={`absolute top-0 left-0 pt-10 z-50 w-full bg-gradient-to-b from-black/80 via-black/70 via-70% to-transparent flex flex-col justify-center items-center gap-4 py-6 text-xl transition-all duration-300 md:hidden ${navbar ? 'translate-x-0' : 'translate-x-[-100%]'} `}>
         <AiOutlineClose className='absolute top-5 right-5 cursor-pointer' color='white' size={35} onClick={handleNav} />
-        <li className='navbar-li border-b-[1px] border-b-gray-500'>Home</li>
-        <li className='navbar-li border-b-[1px] border-b-gray-500'>About Us</li>
-        <li className='navbar-li border-b-[1px] border-b-gray-500'>Team</li>
-        <li className='navbar-li border-b-[1px] border-b-gray-500'>Events</li>
-        <li className='navbar-li border-b-[1px] border-b-gray-500'>Blogs</li>
-        <li className='navbar-li border-b-[1px] border-b-gray-500'>Projects</li>
-        <li className='navbar-li border-b-[1px] border-b-gray-500'>Contact Us</li>
+        <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/">Home</Link>
+        </li>
+        <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
+          <a href="#About">About Us</a>
+        </li>
+        <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/team">Team</Link>
+        </li>
+        <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/events">Events</Link>
+        </li>
+        <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/blogs">Blogs</Link>
+        </li>
+        <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/projects">Projects</Link>
+        </li>
+        <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
+          <a href="#Footer">Contact Us</a>
+        </li>
+        <div className='bg-transparent h-16' />
       </ul>
 
       {/* Gradients */}

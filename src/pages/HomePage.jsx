@@ -1,10 +1,16 @@
-import React from 'react'
-import { useScroll, motion, useSpring } from 'framer-motion'
-import { Hero, About, Team, Events, Projects, Blogs } from '../Sections'
+import React, { useEffect } from 'react';
+import { useScroll, motion, useSpring } from 'framer-motion';
+import { Hero, About, Team, Events, Projects, Blogs } from '../Sections';
 
 const HomePage = () => {
-  const { scrollYProgress } = useScroll()
-  const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 50 })
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 50 });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
 
   return (
     <div className='bg-black w-full overflow-x-hidden'>
@@ -16,7 +22,7 @@ const HomePage = () => {
       <Projects />
       {/* <Blogs /> */}
     </div>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ProjectsCard from '../components/ProjectsCard';
 import { ProjectsList } from '../constants/data';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
 
 const ProjectsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
   return (
     <div className='w-full h-full max-w-[1440px] mx-auto flex flex-col p-4 pt-10 relative mt-6 mb-32'>
       <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
@@ -16,7 +22,7 @@ const ProjectsPage = () => {
       >
         Projects
       </motion.h1>
-      <div className=' grid grid-cols-2 gap-10 w-full'>
+      <div className='grid sm:grid-cols-2 gap-10 w-full'>
 
         {ProjectsList.map((element, index) => (
           <ProjectsCard key={index} index={index} {...element} />

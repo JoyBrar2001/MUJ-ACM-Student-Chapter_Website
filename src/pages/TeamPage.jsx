@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
 import { TeamHeadsList } from '../constants/data';
 
 const TeamPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
   return (
     <div className='w-full h-full max-w-[1280px] mx-auto flex flex-col p-4 pt-10 relative mt-6 mb-32'>
       <motion.h1
@@ -15,10 +21,17 @@ const TeamPage = () => {
         The Team
       </motion.h1>
       <div>
-        <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
         {TeamHeadsList.map((team, index) => {
           return (
             <div>
+              {
+                index%4 == 0 ?
+                <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
+                : 
+                (index+2)%4 == 0 ?
+                <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[140%] translate-y-[40%]' />
+                :null
+              }
               <motion.h1
                 variants={fadeIn('down', 40, 0.5)}
                 initial="hidden"

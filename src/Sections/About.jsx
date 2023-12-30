@@ -13,7 +13,7 @@ const About = () => {
       className='w-full max-w-[1340px] mx-auto h-full p-6 mt-10 relative'
     >
       <div className='absolute w-[600px] h-[600px] blue__gradient right-0 bottom-0 translate-x-[50%]' />
-      <div className='about__gradient w-full h-full py-10 px-14 max-w-[1440px] mx-auto rounded-[40px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-20'>
+      <div className='about__gradient w-full h-full py-10 px-14 max-w-[1440px] mx-auto rounded-[40px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-8 sm:gap-y-10 md:gap-y-20'>
         {/* Row 1 */}
         <motion.div
           variants={fadeIn('down', 40, 0.5)}

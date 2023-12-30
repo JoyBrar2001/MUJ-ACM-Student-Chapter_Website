@@ -17,7 +17,7 @@ const Projects = () => {
         Projects
       </motion.h1>
 
-      <div className='grid grid-cols-2 gap-10 w-full'>
+      <div className='grid sm:grid-cols-2 gap-10 w-full'>
         {ProjectsList.slice(0,3).map((element, index) => (
           <ProjectsCard key={index} index={index} {...element} />
         ))}
