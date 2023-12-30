@@ -25,10 +25,10 @@ const TeamPage = () => {
           return (
             <div>
               {
-                index%4 == 0 ?
+                index%4 == 0 && index != TeamHeadsList.length-1 ?
                 <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
                 : 
-                (index+2)%4 == 0 ?
+                (index+2)%4 == 0 && index != TeamHeadsList.length-1 ?
                 <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[140%] translate-y-[40%]' />
                 :null
               }

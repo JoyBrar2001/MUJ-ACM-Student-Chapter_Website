@@ -57,6 +57,38 @@ import Yashashvi from '../assets/TeamHeads/DigitalMarketing/Yashashvi.png';
 import Sujal from '../assets/TeamHeads/Curations/Sujal.png';
 import AnanyaManan from '../assets/TeamHeads/Curations/Ananya.png';
 
+// Graphic Design
+import Amey from '../assets/TeamHeads/GraphicDesign/Amey.png';
+import Krishanu from '../assets/TeamHeads/GraphicDesign/Krishanu.png';
+import Sahil from '../assets/TeamHeads/GraphicDesign/Sahil.png';
+
+// Logistics
+import Arnav from '../assets/TeamHeads/Logistics/Arnav.png';
+import Ruchir from '../assets/TeamHeads/Logistics/Ruchir.png';
+import Siddharth from '../assets/TeamHeads/Logistics/Siddharth.png';
+import Supreet from '../assets/TeamHeads/Logistics/Supreet.png';
+
+// Marketing
+import Aryan from '../assets/TeamHeads/Marketing/Aryan.png';
+import Harsh from '../assets/TeamHeads/Marketing/Harsh.png';
+import Molik from '../assets/TeamHeads/Marketing/Molik.png';
+
+// Projects and Research
+import Abhilekh from '../assets/TeamHeads/ProjectsResearch/Abhilekh.png';
+import AryanGupta from '../assets/TeamHeads/ProjectsResearch/Aryan.png';
+import Rohan from '../assets/TeamHeads/ProjectsResearch/Rohan.png';
+import Sarthak from '../assets/TeamHeads/ProjectsResearch/Sarthak.png';
+
+// Media
+import Asman from '../assets/TeamHeads/Media/Asman.png';
+import Nishchay2 from '../assets/TeamHeads/Media/Nishchay.png';
+import Vaidic from '../assets/TeamHeads/Media/Vaidic.png';
+
+// Web Deb
+import Ayush from '../assets/TeamHeads/WebDevelopment/Ayush.png';
+import Kunal from '../assets/TeamHeads/WebDevelopment/Kunal.png';
+import SiddharthRekhade from '../assets/TeamHeads/WebDevelopment/Siddharth.png';
+
 // Temp
 import ProjTemp from '../assets/Project.jpg';
 import EventTemp from '../assets/EventTemp.jpg';
@@ -88,7 +120,14 @@ import Polysis from '../assets/ElicitCoverage/Polysis.jpg';
 import Eunoia from '../assets/ElicitCoverage/Eunoia.jpg';
 
 // Sigfest Events Coverage and Logo
-import SigfestLogo from '../assets/Sigfest/SIGFESTLogo.png';
+import SigfestLogo from '../assets/SigfestEvents/SIGFESTLogo.png';
+import Datathon from '../assets/SigfestEvents/Datathon.jpg';
+import RoboSoccerSigfest from '../assets/SigfestEvents/RoboSoccer.jpg'
+import AIBotDev from '../assets/SigfestEvents/AIBotDev.jpg';
+import Innovates from '../assets/SigfestEvents/Innovates.jpg';
+import IOTWorkshop from '../assets/SigfestEvents/IOTWorkshop.jpeg';
+import FifteenMinutes from '../assets/SigfestEvents/FifteenMinutes.jpg';
+import OpenMic from '../assets/SigfestEvents/OpenMic.jpg';
 
 // Executive Team List
 export const ExecList = [
@@ -410,6 +449,185 @@ export const TeamHeadsList = [
       },
     ]
   },
+  // Graphic Design
+  {
+    id: 4,
+    teamName: 'Graphic Design',
+    heads: [
+      {
+        id: 0,
+        photo: Amey,
+        name: 'Amey Gupte',
+        post: 'Head of Graphic Design',
+      },
+      {
+        id: 1,
+        photo: Sahil,
+        name: 'Sahil Prasoon',
+        post: 'Head of Graphic Deisgn',
+      },
+      {
+        id: 2,
+        photo: Krishanu,
+        name: 'Krishanu',
+        post: 'Head of Graphic Deisgn',
+      },
+    ]
+  },
+  // Logistics
+  {
+    id: 5,
+    teamName: 'Logistics',
+    heads: [
+      {
+        id: 0,
+        photo: Arnav,
+        name: 'Arnav Bajpai',
+        post: 'Head of Logistics',
+      },
+      {
+        id: 1,
+        photo: Siddharth,
+        name: 'Siddharth Sanghvi',
+        post: 'Head of Logistics',
+      },
+      {
+        id: 2,
+        photo: Divyansh,
+        name: 'Divyansh Balhara',
+        post: 'Head of Logistics',
+      },
+      {
+        id: 3,
+        photo: Ruchir,
+        name: 'Ruchir Ranjan',
+        post: 'Deputy Head of Logistics',
+      },
+      {
+        id: 4,
+        photo: Supreet,
+        name: 'Kollam Supreet',
+        post: 'Deputy Head of Logistics',
+      },
+    ],
+  },
+  // Marketing
+  {
+    id: 6,
+    teamName: 'Marketing',
+    heads: [
+      {
+        id: 0,
+        photo: Aryan,
+        name: 'Aryan Purohit',
+        post: 'Head of Marketing',
+      },
+      {
+        id: 1,
+        photo: Harsh,
+        name: 'Harsh Vardhan',
+        post: 'Head of Marketing',
+      },
+      {
+        id: 2,
+        photo: DhruvBareja,
+        name: 'Dhruv Bareja',
+        post: 'Deputy Head of Marketing',
+      },
+      {
+        id: 3,
+        photo: Siddharth,
+        name: 'Siddharth Sanghvi',
+        post: 'Deputy Head of Marketing',
+      },
+      {
+        id: 4,
+        photo: Molik,
+        name: 'Molik Jain',
+        post: 'Deputy Head of Marketing',
+      },
+    ],
+  },
+  // Media
+  {
+    id: 7,
+    teamName: 'Media',
+    heads: [
+      {
+        id: 0,
+        photo: Asman,
+        name: 'Asman Bindra',
+        post: 'Head of Media',
+      },
+      {
+        id: 1,
+        photo: Nishchay2,
+        name: 'Nishchay Lamba',
+        post: 'Head of Media',
+      },
+      {
+        id: 2,
+        photo: Vaidic,
+        name: 'Vaidic Agrawal',
+        post: 'Head of Media',
+      },
+    ],
+  },
+  // Projects & Research
+  {
+    id: 8,
+    teamName: 'Projects & Research',
+    heads: [
+      {
+        id: 0,
+        photo: Abhilekh,
+        name: 'Abhilekh Borah',
+        post: 'Projects & Research',
+      },
+      {
+        id: 1,
+        photo: AryanGupta,
+        name: 'Aryan Gupta',
+        post: 'Projects & Research',
+      },
+      {
+        id: 2,
+        photo: Rohan,
+        name: 'Rohan Goyal',
+        post: 'Projects & Research',
+      },
+      {
+        id: 3,
+        photo: Sarthak,
+        name: 'Sarthak Panwar',
+        post: 'Projects & Research',
+      },
+    ],
+  },
+  {
+    id: 8,
+    teamName: 'Web Development',
+    heads: [
+      {
+        id: 0,
+        photo: Ayush,
+        name: 'Ayush Shashi',
+        post: 'Web Development',
+      },
+      {
+        id: 1,
+        photo: Kunal,
+        name: 'Kunal Yadav',
+        post: 'Web Development',
+      },
+      {
+        id: 2,
+        photo: SiddharthRekhade,
+        name: 'Siddharth Rekhade',
+        post: 'Web Development',
+      },
+    ],
+  },
 ];
 
 // Events Page -> Elicit Events
@@ -533,7 +751,7 @@ export const SigfestEvents = [
     id: 0,
     name: 'Datathon',
     date: null,
-    image: EventTemp,
+    image: Datathon,
     logo: SigfestLogo,
     description: 'The Muj ACM Datathon, distinguished by a substantial and diverse participant turnout, fostered an atmosphere of intellectual fervor and collaboration. Record-breaking attendance comprised seasoned data scientists and enthusiastic newcomers, engaging in a dynamic exchange of ideas and problem-solving. Demonstrating adeptness with intricate datasets, participants showcased innovative solutions, standing as a testament to the community\'s dedication to advancing data science. This saw 933 participants all accross India via unstop and offline, it also had a recored over 3.3lac impressions',
   },
@@ -541,7 +759,7 @@ export const SigfestEvents = [
     id: 1,
     name: 'RoboSoccer',
     date: null,
-    image: EventTemp,
+    image: RoboSoccerSigfest,
     logo: SigfestLogo,
     description: 'On March 3rd, 2023, at 3:30 pm, the RoboSoccer Extravaganza unfolded, showcasing a riveting clash of robotic titans in a specially designed arena. Teams from top universities and research institutions unveiled their cutting-edge robot designs, demonstrating unprecedented soccer skills. The event, lasting three hours, seamlessly blended entertainment with technological marvels, highlighting the potential of robotics in various industries. The crowd erupted in cheers as these mechanical maestros executed precise maneuvers, leaving an indelible mark on the future of sports and technology. RoboSoccer Extravaganza 2023 was a triumphant celebration of innovation and teamwork.',
   },
@@ -549,7 +767,7 @@ export const SigfestEvents = [
     id: 2,
     name: 'AI Bot Development',
     date: null,
-    image: EventTemp,
+    image: AIBotDev,
     logo: SigfestLogo,
     description: 'Students or developers compete in the 36-hour AI Bot Dev-An competition by writing code for a smart bot that answers a given problem. Programming languages and AI technologies such as computer vision, natural language processing, and machine learning are utilised by the participants. The bots have to be aware of their surroundings, make choices, and operate in a way that would lead to the desired outcome. The bots are judged on their effectiveness, innovation, quality, and usage of AI technology. Students who participate in the event display their skills, gain coding knowledge, and are inspired to be innovative and creative. This saw 168 participants from accross the nation and was listed on Unstop.',
   },
@@ -565,7 +783,7 @@ export const SigfestEvents = [
     id: 4,
     name: 'Innovates',
     date: null,
-    image: EventTemp,
+    image: Innovates,
     logo: SigfestLogo,
     description: 'The event started at 1 pm, featuring student project displays across various fields. Mr. Ravindra Yadav from Atal Incubation Centre and Dr. Shilpa Joshi served as evaluators. The exhibition included 9 teams—4 from outhouse and 5 from inhouse. Projects ranged from drones to voice-controlled vehicles using Arduinos, and Autonomous UAVs designed for defense and disaster management, showcasing a diverse array of innovative endeavors.',
   },
@@ -573,7 +791,7 @@ export const SigfestEvents = [
     id: 5,
     name: 'IOT Workshop',
     date: null,
-    image: EventTemp,
+    image: IOTWorkshop,
     logo: SigfestLogo,
     description: 'Participants explored the fundamentals, delving into sensor integration, data collection, and real-world applications. Through hands-on activities, attendees gained practical experience in constructing IoT devices and connecting them to the cloud. Whether they were beginners or looking to deepen their knowledge, the workshop provided a comprehensive understanding of the technology that shaped the future. It was a day of discovery, collaboration, and practical insights into the transformative power of IoT.',
   },
@@ -581,7 +799,7 @@ export const SigfestEvents = [
     id: 6,
     name: '15 Minutes',
     date: null,
-    image: EventTemp,
+    image: FifteenMinutes,
     logo: SigfestLogo,
     description: 'Lorem Ipsum.',
   },
@@ -589,7 +807,7 @@ export const SigfestEvents = [
     id: 7,
     name: 'Open Mic',
     date: null,
-    image: EventTemp,
+    image: OpenMic,
     logo: SigfestLogo,
     description: 'On March 4th, SIGFEST\'s final event, the Open Mic, ran from 7 pm to 10 pm. This was done in collaboration with local club TMC(The Music Club) set the tone with soothing tunes, and at 9:30 pm, energetic dance performances took the stage, engaging the crowd of 500 participants. The event not only celebrated diverse talents but also fostered community spirit, concluding SIGFEST on a high note of collective enjoyment and shared artistic expression.',
   },

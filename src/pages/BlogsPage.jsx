@@ -8,8 +8,8 @@ const BlogsPage = () => {
     };
   }, []);
   return (
-    <div>
-      Blogs
+    <div className='h-screen flex justify-center items-center'>
+      <p className='text-white'>Blogs</p>
     </div>
   )
 }
