@@ -1,10 +1,20 @@
-import React from 'react'
-import { CoreList, ExecList } from '../constants/data'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../constants/motion'
-import StaggeredText from '../components/StaggeredText'
-import ExecCard from '../components/ExecCard'
-import CoreCard from '../components/CoreCard'
+/** 
+ * FileName - Team.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 49
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - The Team Section of the Home Page
+*/
+
+import React from 'react';
+import { CoreList, ExecList } from '../constants/data';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../constants/motion';
+import StaggeredText from '../components/StaggeredText';
+import ExecCard from '../components/ExecCard';
+import CoreCard from '../components/CoreCard';
 
 const Team = () => {
   return (
@@ -33,7 +43,7 @@ const Team = () => {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default Team
+export default Team;

@@ -1,3 +1,13 @@
+/** 
+ * FileName - HomePage.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 39
+ * Created On - 21/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - Home Page of the website
+*/
+
 import React, { useEffect } from 'react';
 import { useScroll, motion, useSpring } from 'framer-motion';
 import { Hero, About, Gallery, Team, Events, Projects, Blogs } from '../Sections';
@@ -5,12 +15,12 @@ import { Hero, About, Gallery, Team, Events, Projects, Blogs } from '../Sections
 const HomePage = () => {
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 100, damping: 50 });
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  //   return () => {
-  //     window.scrollTo(0, 0);
-  //   };
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
 
   return (
     <div className='bg-black w-full overflow-x-hidden'>

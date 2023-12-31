@@ -1,8 +1,18 @@
-import React, { useState } from 'react'
-import { motion } from 'framer-motion'
-import { EventsList } from '../constants/data'
-import { fadeIn } from '../constants/motion'
-import EventCard from '../components/EventCard'
+/** 
+ * FileName - Events.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 41
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - The Events Section of the Home Page
+*/
+
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { EventsList } from '../constants/data';
+import { fadeIn } from '../constants/motion';
+import EventCard from '../components/EventCard';
 
 const Events = () => {
     const [active, setActive] = useState('event-2')
@@ -25,7 +35,7 @@ const Events = () => {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default Events
+export default Events;

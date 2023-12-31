@@ -1,6 +1,16 @@
-import React, { useState } from 'react'
-import { AiOutlineClose } from 'react-icons/ai'
-import { BiMenuAltRight } from 'react-icons/bi'
+/** 
+ * FileName - Navbar.jsx
+ * FileType - .jsx (React Js file)
+ * Lines 86
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - The Navbar of all Pages
+*/
+
+import React, { useState } from 'react';
+import { AiOutlineClose } from 'react-icons/ai';
+import { BiMenuAltRight } from 'react-icons/bi';
 import ACMLogo from '../assets/Logos/ACM-Logo-White.png';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
@@ -70,7 +80,7 @@ const Navbar = () => {
       {/* <div className='absolute white__gradient w-[500px] h-[500px] top-0 left-0 translate-x-[-50%] translate-y-[-60%]' /> */}
       {/* <div className='absolute white__gradient w-[900px] h-[500px] top-0 right-0 translate-x-[50%] translate-y-[-50%]' /> */}
     </motion.nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

@@ -1,7 +1,17 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../constants/motion'
-import CreateLine from '../components/CreateLine'
+/** 
+ * FileName - About.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 94
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - The About section of the Home Page
+*/
+
+import React from 'react';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../constants/motion';
+import CreateLine from '../components/CreateLine';
 
 const About = () => {
     return (
@@ -78,7 +88,7 @@ const About = () => {
       </div>
 
     </motion.div>
-  )
+  );
 }
 
-export default About
+export default About;

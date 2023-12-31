@@ -1,3 +1,13 @@
+/** 
+ * FileName - motion.js
+ * FileType - .js (Js file)
+ * Lines - 29
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - This exports the fade in on scroll function as used in framer motion
+*/
+
 export const fadeIn = (direction, amount, time, delay = 0) => ({
   hidden: {
     x: direction === 'left' ? -amount : direction === 'right' ? amount : 0,

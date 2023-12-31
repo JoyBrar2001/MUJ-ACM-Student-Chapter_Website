@@ -1,3 +1,13 @@
+/** 
+ * FileName - data.js
+ * FileType - .js (Js file)
+ * Lines - 824
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - This is where all of the data is imported and exported in the form of arrays of objects
+*/
+
 // Exec Import
 import Soham from '../assets/Team/Exec/Soham.png';
 import Purvanshi from '../assets/Team/Exec/Purvanshi.png';

@@ -1,6 +1,16 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../constants/motion'
+/** 
+ * FileName - CoreCard.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 32
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - This exports Core Team Card as seen in the home page
+*/
+
+import React from 'react';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../constants/motion';
 
 const CoreCard = ({ name, position, image, id }) => {
   return (
@@ -16,7 +26,7 @@ const CoreCard = ({ name, position, image, id }) => {
         <h3 className='font-normal text-sm'>{position}</h3>
       </div>
     </motion.div>
-  )
+  );
 }
 
-export default CoreCard
+export default CoreCard;

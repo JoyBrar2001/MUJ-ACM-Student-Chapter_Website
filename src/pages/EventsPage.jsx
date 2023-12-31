@@ -1,3 +1,13 @@
+/** 
+ * FileName - EventsPage.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 126
+ * Created On - 21/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - Events Page of the website
+*/
+
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
@@ -6,12 +16,12 @@ import 'react-vertical-timeline-component/style.min.css';
 import { ElicitEvents, SigfestEvents } from '../constants/data';
 
 const EventsPage = () => {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  //   return () => {
-  //     window.scrollTo(0, 0);
-  //   };
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
   return (
     <div className='w-full h-full max-w-[1280px] mx-auto flex flex-col p-4 pt-10 relative mt-6 mb-32'>
       <motion.h1

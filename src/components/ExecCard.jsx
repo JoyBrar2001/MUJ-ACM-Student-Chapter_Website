@@ -1,9 +1,19 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { fadeIn } from '../constants/motion'
-import Linkedin from '../assets/Socials/Linkedin.png'
-import Github from '../assets/Socials/Github.png'
-import Instgram from '../assets/Socials/Instagram.png'
+/** 
+ * FileName - ExecCard.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 51
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - This exports Executive Board Card as seen in the home page
+*/
+
+import React from 'react';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../constants/motion';
+import Linkedin from '../assets/Socials/Linkedin.png';
+import Github from '../assets/Socials/Github.png';
+import Instgram from '../assets/Socials/Instagram.png';
 
 const ExecCard = ({ name, position, image, id, linkedin, github, instagram }) => {
   return (
@@ -35,7 +45,7 @@ const ExecCard = ({ name, position, image, id, linkedin, github, instagram }) =>
         <h3 className='font-normal text-lg'>{position}</h3>
       </div>
     </motion.div>
-  )
+  );
 }
 
-export default ExecCard
+export default ExecCard;

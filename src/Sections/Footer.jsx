@@ -1,3 +1,13 @@
+/** 
+ * FileName - Footer.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 58
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - The Footer of all Pages
+*/
+
 import React from 'react';
 import ACMLogo from '../assets/Logos/ACM-Logo-White.png';
 import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs';

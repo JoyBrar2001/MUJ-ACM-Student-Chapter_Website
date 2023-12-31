@@ -1,7 +1,17 @@
+/** 
+ * FileName - StaggeredText.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 41
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - This exports the staggered text animation for the headings
+*/
+
 import React from 'react'
 import { motion, easeInOut } from 'framer-motion'
 
-const StaggeredText = ({ title,  fontsize, delay, totalDelay }) => {
+const StaggeredText = ({ title, fontsize, delay, totalDelay }) => {
     
     let text = title.split('')
     let myLineObj = []

@@ -1,7 +1,17 @@
-import React, { lazy, Suspense } from 'react'
-import { useScroll, motion, useSpring } from 'framer-motion'
-import { Navbar, Footer } from './Sections'
-import { Route, Router, Routes } from 'react-router-dom'
+/** 
+ * FileName - App.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 84
+ * Created On - 15/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - Router for all the different pages of the website
+*/
+
+import React, { lazy, Suspense } from 'react';
+import { useScroll, motion, useSpring } from 'framer-motion';
+import { Navbar, Footer } from './Sections';
+import { Route, Router, Routes } from 'react-router-dom';
 const HomePage = React.lazy(() => import('./pages/HomePage'));
 const TeamPage = React.lazy(() => import('./pages/TeamPage'));
 const EventsPage = React.lazy(() => import('./pages/EventsPage'));
@@ -68,7 +78,7 @@ const App = () => {
 
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
