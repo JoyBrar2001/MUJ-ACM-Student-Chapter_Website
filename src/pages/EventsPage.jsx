@@ -20,6 +20,14 @@ const EventsPage = () => {
         whileInView="show"
         className='team__title__gradient text-center text-7xl font-bold mt-16 mb-8 uppercase w-full'
       >
+        ACM India Chapter Summit '23
+      </motion.h1>
+      <motion.h1
+        variants={fadeIn('down', 40, 0.5)}
+        initial="hidden"
+        whileInView="show"
+        className='team__title__gradient text-center text-7xl font-bold mt-16 mb-8 uppercase w-full'
+      >
         Elicit' 23
       </motion.h1>
       <div className='absolute w-full h-full'>

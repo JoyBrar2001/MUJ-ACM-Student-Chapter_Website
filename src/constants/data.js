@@ -801,7 +801,7 @@ export const SigfestEvents = [
     date: null,
     image: FifteenMinutes,
     logo: SigfestLogo,
-    description: 'Lorem Ipsum.',
+    description: 'An event for our beloved freshers to get a taste of every domain out there. An event where our seniors interacted with freshmen about their domains in a fast paced 15 minute time slots. Students got to learn about the various domains and the opportunities in it.',
   },
   {
     id: 7,

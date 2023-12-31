@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import ACMLogo from '../assets/Logos/ACM-Logo-White.png';
-import { IoMdMail } from 'react-icons/io'
-import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs'
+import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs';
+import JoyBrar from '../assets/DevelopedBy/JoyBrarWebmaster.png';
 
 const Footer = () => {
   return (
@@ -31,7 +31,16 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div>Developed By</div>
+      <div className='text-white flex flex-col gap-2 justify-center items-center'>
+        <h1 className='text-2xl font-semibold'>Developed By</h1>
+        <div className='flex flex-row gap-2'>
+          <img src={JoyBrar} alt="Joy Brar" className='w-16 h-16 rounded-full border-[3px] border-white' />
+          <div className='flex flex-col justify-center'>
+            <h2 className='text-xl font-semibold'>Joy Brar</h2>
+            <h3 className='text-base font-light'>Webmaster</h3>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
