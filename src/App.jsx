@@ -31,7 +31,7 @@ const App = () => {
       <Routes>
         {/* Home Page */}
         <Route
-          path='/MUJ-ACM-Student-Chapter_Website/'
+          path='/'
           element={
             <React.Suspense>
               <HomePage />
@@ -40,7 +40,7 @@ const App = () => {
         />
         {/* Team Page */}
         <Route
-          path='/MUJ-ACM-Student-Chapter_Website/team'
+          path='/team'
           element={
             <React.Suspense>
               <TeamPage />
@@ -49,7 +49,7 @@ const App = () => {
         />
         {/* Events Page */}
         <Route
-          path='/MUJ-ACM-Student-Chapter_Website/events'
+          path='/events'
           element={
             <React.Suspense>
               <EventsPage />
@@ -58,7 +58,7 @@ const App = () => {
         />
         {/* Blogs Page */}
         <Route
-          path='/MUJ-ACM-Student-Chapter_Website/blogs'
+          path='/blogs'
           element={
             <React.Suspense>
               <BlogsPage />
@@ -67,7 +67,7 @@ const App = () => {
         />
         {/* Projects Page */}
         <Route
-          path='/MUJ-ACM-Student-Chapter_Website/projects'
+          path='/projects'
           element={
             <React.Suspense>
               <ProjectsPage />
