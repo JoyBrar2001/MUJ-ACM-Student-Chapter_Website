@@ -31,8 +31,12 @@ const EventCard = ({ id, index, name, image, desc, active, handleHover }) => {
         ) : (
           <div className='absolute w-full rounded-xl left-0 bottom-0 bg-black/70 text-white p-4'>
           <h3 className='text-4xl font-bold my-4'>{name}</h3>
-          <p className='mb-2'>{desc}</p>
-            <Link to="/MUJ-ACM-Student-Chapter_Website/events">
+          <p className='mb-2'>
+            {
+              desc.length > 250 ? desc.slice(0,200) + '...' : desc
+            }
+          </p>
+            <Link to="/events">
           <p className='flex justify-start items-center gap-1 text-xs opacity-80'>View More<BsArrowUpRight /></p>
       </Link>
         </div>

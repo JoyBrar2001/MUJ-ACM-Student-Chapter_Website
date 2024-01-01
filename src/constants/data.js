@@ -227,8 +227,8 @@ export const EventsList = [
   {
     id: 'event-2',
     name: 'Hacks',
-    image: Hacks,
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    image: Hacks8,
+    desc: 'In a transformative 48-hour challenge, over 800 participants embarked on an exhilarating journey of innovation, pushing the boundaries of coding excellence. This grand assembly served as a crucible for budding technology enthusiasts, fostering a culture of passion, collaboration, and knowledge-sharing. Beyond individual pursuits, the event aimed to contribute to a larger purpose, with each participant becoming a brushstroke in the canvas of technological progress. The symphony of brilliance and the forging of lasting connections highlighted the event\'s profound impact on both technical acumen and the spirit of collaboration. It stands as a glorious testament to the boundless potential that emerges when passion converges with knowledge and collaboration.',
   },
   {
     id: 'event-3',
