@@ -33,7 +33,7 @@ const TeamPage = () => {
       <div>
         {TeamHeadsList.map((team, index) => {
           return (
-            <div>
+            <div key={index}>
               {
                 index%4 == 0 && index != TeamHeadsList.length-1 ?
                 <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
@@ -58,6 +58,7 @@ const TeamPage = () => {
                       initial="hidden"
                       whileInView="show"
                       className='teamhead__card__bg w-56 flex flex-col justify-center items-center rounded-3xl pb-3 px-4'
+                      key={index}
                     >
                       <img src={head.photo} className='w-48 h-48 rounded-3xl -mt-6 hover:scale-105 transition-all ease-in-out duration-150' alt={head.name} loading='lazy' />
                       <p className='text-white text-center mt-2 text-xl font-medium'>{head.name}</p>

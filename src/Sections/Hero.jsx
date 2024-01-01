@@ -49,7 +49,7 @@ const Hero = () => {
 
       </div>
 
-      <div className='flex justify-center items-center md:items-start w-full -mt-10 md:w-2/5'>
+      <div className='flex justify-center items-center md:items-start w-full mt-6 sm:-mt-10 md:w-2/5'>
         <motion.img
           variants={fadeIn('right', 100, 1, 0.7)}
           initial="hidden"
