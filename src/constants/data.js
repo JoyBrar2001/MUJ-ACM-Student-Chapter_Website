@@ -1,7 +1,7 @@
 /** 
  * FileName - data.js
  * FileType - .js (Js file)
- * Lines - 824
+ * Lines - 821
  * Created On - 15/8/2023, 01:19:20
  * Author - Joy Brar
  * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
@@ -23,12 +23,10 @@ import Priyansh from '../assets/Team/Core/Priyansh.png';
 import Yash from '../assets/Team/Core/Yash.png';
 
 // Home Page Events
-import Decrypt from '../assets/EventPosters/Decrypt-1.png';
-import Hacks from '../assets/EventPosters/Hacks6-1.png';
-import Elicit from '../assets/EventPosters/Elicit-1.png';
-import Defi from '../assets/EventPosters/Defi-1.png';
-import VoiceOfTech from '../assets/EventPosters/Voice.png';
 import ElicitHome from '../assets/EventHomePage/ElicitHome.jpg';
+import SummitHome from '../assets/EventHomePage/SummitHome.jpg'
+import ISDSHome from '../assets/EventHomePage/ISDSHome.jpg';
+import SigfestHome from '../assets/EventHomePage/SigfestHome.jpg';
 
 // Project Photo Imports
 import ReinforcementLearningBasedTradingBot from  '../assets/Projects/ReinforcementLearningBasedTradingBot.png';
@@ -221,7 +219,7 @@ export const EventsList = [
   {
     id: 'event-1',
     name: 'SIGFEST',
-    image: Decrypt,
+    image: SigfestHome,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
   {
@@ -239,13 +237,13 @@ export const EventsList = [
   {
     id: 'event-4',
     name: 'ISDS \'23',
-    image: Defi,
+    image: ISDSHome,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
   {
     id: 'event-5',
     name: 'ACM India Chapter Summit \'23',
-    image: VoiceOfTech,
+    image: SummitHome,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
   },
 ];
