@@ -27,9 +27,9 @@ const HomePage = () => {
       <motion.div className='fixed h-2 w-full bg-[#20bbd2] z-[1000] origin-left overflow-y-hidden' style={{ scaleX, boxShadow: `0px 0px 10px rgba(22,178,207,0.5)` }} />
       <Hero />
       <About />
-      <Gallery />
       <Team />
       <Events />
+      <Gallery />
       <Projects />
       {/* <Blogs /> */}
     </div>

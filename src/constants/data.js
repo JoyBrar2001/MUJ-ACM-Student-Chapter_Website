@@ -220,7 +220,7 @@ export const EventsList = [
     id: 'event-1',
     name: 'SIGFEST',
     image: SigfestHome,
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    desc: 'With an aim to promote Embedded Systems, AI, IoT and Data Science, over 2000 participants ventured into an exciting expedition of technology, nurturing their insights towards modern day innovation. SIGFEST successfully blended tech and excitement together, resulting in an unwavering pursuit of collaboration and knowledge.',
   },
   {
     id: 'event-2',
@@ -232,13 +232,13 @@ export const EventsList = [
     id: 'event-3',
     name: 'ELICIT \'23',
     image: ElicitHome,
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    desc: 'Spanning 3 days and featuring 17 events, this extravaganza ranged from a 36-hour hackathon to intense gaming competitions, spotlighting the diverse talents and interests within our tech community. ELICIT transcended being a mere tech-fest, as it evolved into a celebration of innovation, collaboration, and the essence of technology.',
   },
   {
     id: 'event-4',
     name: 'ISDS \'23',
     image: ISDSHome,
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    desc: 'In a vibrant environment environment where concepts were cultivatived, insights exchanged and meaningful connections established, the ISDS stood testament to an unwavering pursuit of knowledge and a celebration of diverse perspectives.',
   },
   {
     id: 'event-5',
