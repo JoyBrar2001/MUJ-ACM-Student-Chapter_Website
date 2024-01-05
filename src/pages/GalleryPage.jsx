@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-
-import img1 from '../assets/Gallery/1.jpg';
-import img2 from '../assets/Gallery/2.jpg';
-import img3 from '../assets/Gallery/3.jpg';
-import img4 from '../assets/Gallery/4.jpg';
-import img5 from '../assets/Gallery/5.jpg';
 import { GalleryList } from '../constants/data';
 
 const GalleryPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {
+      window.scrollTo(0, 0);
+    };
+  }, []);
+
   return (
     <div className='w-full h-full max-w-[1280px] mx-auto flex flex-col p-4 pt-10 relative mt-6 mb-32'>
       <motion.h1
@@ -39,6 +40,7 @@ const GalleryPage = () => {
               src={photo.img}
               style={{ width: "100%", display: "block", borderRadius: '15px' }}
               alt=''
+              loading='lazy'
             />
             <div className='absolute top-0 left-0 w-full h-full flex px-3 py-2 items-end bg-gradient-to-t from-black/70 via-black/20 via-30% to-transparent'>
               <p className='text-[#ececec] font-semibold shadow-2xl'>{photo.title}</p>

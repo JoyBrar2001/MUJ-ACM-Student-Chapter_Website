@@ -29,7 +29,7 @@ const HomePage = () => {
       <About />
       <Team />
       <Events />
-      <Gallery />
+      {/* <Gallery /> */}
       <Projects />
       {/* <Blogs /> */}
     </div>

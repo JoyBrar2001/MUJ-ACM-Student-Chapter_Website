@@ -31,13 +31,13 @@ const Navbar = () => {
       className={`w-full flex justify-between items-center text-white p-4 fixed z-40 bg-gradient-to-b from-black via-black-70 via-50% to-transparent`}
     >
       {/* Left Side */}
-      <div className='flex justify-center items-center gap-3'>
+      <Link to="/" className='flex justify-center items-center gap-3'>
         <img src={ACMLogo} alt="ACM Logo" className='h-[55px] w-[55px]' />
         <div>
           <h1 className='font-bold text-[14px]'>Association for<br />Computing Machinery</h1>
           <p className='font-light text-xs'>MUJ Student Chapter</p>
         </div>
-      </div>
+      </Link>
       {/* Right Side */}
       <ul className='hidden lg:flex gap-6 text-md pr-4 z-10'>
         <li className='navbar-li'><Link to="/">Home</Link></li>

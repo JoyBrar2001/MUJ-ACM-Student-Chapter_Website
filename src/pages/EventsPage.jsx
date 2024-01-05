@@ -13,34 +13,81 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { ElicitEvents, SigfestEvents } from '../constants/data';
+import { ElicitEvents, OurEvents, RTEEvents, SigfestEvents } from '../constants/data';
+
+const VerticalTimelineElementComponent = ({ id, name, date, image, logo, description, addPadding }) => (
+  <VerticalTimelineElement
+    className='vertical-timeline-element--work'
+    contentStyle={{
+      background: 'linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0))',
+      color: '#fff'
+    }}
+    contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.1)' }}
+    date={date}
+    iconStyle={{ background: 'black', color: '#fff' }}
+    icon={logo ? <img src={logo} className={`w-full h-full rounded-full ${addPadding ? 'p-2' : ''}`} /> : null}
+  >
+    <div>
+      <h3 className="text-2xl font-bold">{name}</h3>
+      {/* <h4 className="vertical-timeline-element-subtitle">Location</h4> */}
+      <p className='text-sm font-light'>
+        {description}
+      </p>
+    </div>
+    <div className='w-full h-40 mt-4'>
+      <img src={image} className='w-full h-full object-cover' alt="" />
+    </div>
+  </VerticalTimelineElement>
+)
+
+const CreateHeading = ({ title }) => (
+  <motion.h1
+    variants={fadeIn('down', 40, 0.5)}
+    initial="hidden"
+    whileInView="show"
+    className='team__title__gradient text-center text-7xl font-bold mt-16 mb-8 uppercase w-full'
+  >{title}</motion.h1>
+)
 
 const EventsPage = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-    return () => {
-      window.scrollTo(0, 0);
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  //   return () => {
+  //     window.scrollTo(0, 0);
+  //   };
+  // }, []);
   return (
     <div className='w-full h-full max-w-[1280px] mx-auto flex flex-col p-4 pt-10 relative mt-6 mb-32'>
-      <motion.h1
-        variants={fadeIn('down', 40, 0.5)}
-        initial="hidden"
-        whileInView="show"
-        className='team__title__gradient text-center text-7xl font-bold mt-16 mb-8 uppercase w-full'
-      >
-        ACM India Chapter Summit '23
-      </motion.h1>
-      <motion.h1
-        variants={fadeIn('down', 40, 0.5)}
-        initial="hidden"
-        whileInView="show"
-        className='team__title__gradient text-center text-7xl font-bold mt-16 mb-8 uppercase w-full'
-      >
-        Elicit' 23
-      </motion.h1>
-      <div className='absolute w-full h-full'>
+
+      <CreateHeading title="Elicit'23" />
+      <VerticalTimeline>
+        {ElicitEvents.map((event, index) => (
+          <VerticalTimelineElementComponent key={index} {...event} />
+        ))}
+      </VerticalTimeline>
+
+      <CreateHeading title="Road To Elicit" />
+      <VerticalTimeline>
+        {RTEEvents.map((event, index) => (
+          <VerticalTimelineElementComponent key={index} addPadding {...event} />
+        ))}
+      </VerticalTimeline>
+
+      <CreateHeading title="Our Events" />
+      <VerticalTimeline>
+        {OurEvents.map((event, index) => (
+          <VerticalTimelineElementComponent key={index} addPadding {...event} />
+        ))}
+      </VerticalTimeline>
+
+      <CreateHeading title="Sigfest'23" />
+      <VerticalTimeline>
+        {SigfestEvents.map((event, index) => (
+          <VerticalTimelineElementComponent key={index} {...event} />
+        ))}
+      </VerticalTimeline>
+
+      <div className='absolute w-full h-full opacity-60'>
         <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
         <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[100%] translate-y-[140%]' />
         <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[340%]' />
@@ -50,75 +97,6 @@ const EventsPage = () => {
         <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[1100%]' />
         <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[100%] translate-y-[1300%]' />
       </div>
-
-      <VerticalTimeline>
-        {ElicitEvents.map((event, index) => {
-          return (
-            <VerticalTimelineElement
-              className='vertical-timeline-element--work'
-              key={index}
-              contentStyle={{
-                background: 'linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0))',
-                color: '#fff'
-              }}
-              contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.1)' }}
-              date={event.date}
-              iconStyle={{ background: 'black', color: '#fff' }}
-              icon={event.logo ? <img src={event.logo} className='w-full h-full rounded-full' /> : null}
-            >
-              <div>
-                <h3 className="text-2xl font-bold">{event.name}</h3>
-                {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
-                <p className='text-sm font-light'>
-                  {event.description}
-                </p>
-              </div>
-              <div className='w-full h-40 mt-4'>
-                <img src={event.image} className='w-full h-full object-cover' alt="" />
-              </div>
-            </VerticalTimelineElement>
-          )
-        })}
-      </VerticalTimeline>
-
-      <motion.h1
-        variants={fadeIn('down', 40, 0.5)}
-        initial="hidden"
-        whileInView="show"
-        className='team__title__gradient text-center text-7xl font-bold mt-16 mb-8 uppercase w-full'
-      >
-        Sigfest '23
-      </motion.h1>
-
-      <VerticalTimeline>
-        {SigfestEvents.map((event, index) => {
-          return (
-            <VerticalTimelineElement
-              className='vertical-timeline-element--work'
-              key={index}
-              contentStyle={{
-                background: 'linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0))',
-                color: '#fff'
-              }}
-              contentArrowStyle={{ borderRight: '7px solid rgba(255, 255, 255, 0.1)' }}
-              date={event.date}
-              iconStyle={{ background: 'black', color: '#fff' }}
-              icon={event.logo ? <img src={event.logo} className='w-full h-full rounded-full' /> : null}
-            >
-              <div>
-                <h3 className="text-2xl font-bold">{event.name}</h3>
-                {/* <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4> */}
-                <p className='text-sm font-light'>
-                  {event.description}
-                </p>
-              </div>
-              <div className='w-full h-40 mt-4'>
-                <img src={event.image} className='w-full h-full object-cover' alt="" />
-              </div>
-            </VerticalTimelineElement>
-          )
-        })}
-      </VerticalTimeline>
     </div>
   );
 }

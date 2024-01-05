@@ -8,6 +8,10 @@
  * Description - This is where all of the data is imported and exported in the form of arrays of objects
 */
 
+// Logos Import
+import ACMLogo from '../assets/Logos/ACM-Logo-White.png';
+import ElicitLogo from '../assets/Logos/Elicit-Logo.png';
+
 // Exec Import
 import Soham from '../assets/Team/Exec/Soham.png';
 import Purvanshi from '../assets/Team/Exec/Purvanshi.png';
@@ -146,6 +150,11 @@ import ElicitExpo from '../assets/ElicitCoverage/ElicitExpo.jpg';
 import RoboSoccer from '../assets/ElicitCoverage/RoboSoccer.jpg';
 import Polysis from '../assets/ElicitCoverage/Polysis.jpg';
 import Eunoia from '../assets/ElicitCoverage/Eunoia.jpg';
+
+// Road To Elicit Events
+import MurderMystery from '../assets/RTEEvents/MurderMystery.jpg';
+import Futsal from '../assets/RTEEvents/Futsal.jpg';
+import Elevate from '../assets/RTEEvents/Elevate.jpg';
 
 // Sigfest Events Coverage and Logo
 import SigfestLogo from '../assets/SigfestEvents/SIGFESTLogo.png';
@@ -849,6 +858,87 @@ export const ElicitEvents = [
   },
 ];
 
+// Events Page -> Road To Elicit
+export const RTEEvents = [
+  {
+    id: 0,
+    name: 'Murder Mystery',
+    date: 'date',
+    image: MurderMystery,
+    logo: ElicitLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+  {
+    id: 1,
+    name: 'Elevate',
+    date: 'date',
+    image: Elevate,
+    logo: ElicitLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+  {
+    id: 2,
+    name: 'Futsal',
+    date: 'date',
+    image: Futsal,
+    logo: ElicitLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+];
+
+// Events Page -> All Events
+export const OurEvents = [
+  {
+    id: 0,
+    name: 'ACM India Chapter Summit\'23',
+    date: 'date',
+    image: SummitHome,
+    logo: ACMLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+  {
+    id: 1,
+    name: 'ISDS\'23',
+    date: 'date',
+    image: ISDSHome,
+    logo: ACMLogo,
+    description: 'In a vibrant environment environment where concepts were cultivatived, insights exchanged and meaningful connections established, the ISDS stood testament to an unwavering pursuit of knowledge and a celebration of diverse perspectives.',
+  },
+  {
+    id: 2,
+    name: 'Gitverse Workshop',
+    date: 'date',
+    image: EventTemp,
+    logo: ACMLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+  {
+    id: 3,
+    name: 'Web3 Workshop',
+    date: 'date',
+    image: EventTemp,
+    logo: ACMLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+  {
+    id: 4,
+    name: 'Research Paper Talk',
+    date: 'date',
+    image: EventTemp,
+    logo: ACMLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+  {
+    id: 5,
+    name: 'Voice of Tech',
+    date: '18th March, 2023',
+    image: EventTemp,
+    logo: ACMLogo,
+    description: 'Lorem Ipsum kaafi saara',
+  },
+];
+
+// Events Page -> Sigfest Events
 export const SigfestEvents = [
   {
     id: 0,
