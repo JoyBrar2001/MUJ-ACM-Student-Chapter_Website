@@ -101,6 +101,26 @@ import SiddharthRekhade from '../assets/TeamHeads/WebDevelopment/Siddharth.png';
 import ProjTemp from '../assets/Project.jpg';
 import EventTemp from '../assets/EventTemp.jpg';
 
+// Gallery Page Photo Imports
+import G1 from '../assets/GalleryPage/G-1.jpg';
+import G2 from '../assets/GalleryPage/G-2.jpg';
+import G3 from '../assets/GalleryPage/G-3.jpg';
+import G4 from '../assets/GalleryPage/G-4.jpg';
+import G5 from '../assets/GalleryPage/G-5.jpg';
+import G6 from '../assets/GalleryPage/G-6.jpg';
+import G7 from '../assets/GalleryPage/G-7.jpg';
+import G8 from '../assets/GalleryPage/G-8.jpg';
+import G9 from '../assets/GalleryPage/G-9.jpg';
+import G10 from '../assets/GalleryPage/G-10.jpg';
+import G11 from '../assets/GalleryPage/G-11.jpg';
+import G12 from '../assets/GalleryPage/G-12.jpg';
+import G13 from '../assets/GalleryPage/G-13.jpg';
+import G14 from '../assets/GalleryPage/G-14.jpg';
+import G15 from '../assets/GalleryPage/G-15.jpg';
+import G16 from '../assets/GalleryPage/G-16.jpg';
+import G17 from '../assets/GalleryPage/G-17.jpg';
+import G18 from '../assets/GalleryPage/G-18.jpg';
+
 // Elicit Event Logos
 import OpeningCeremonyLogo from '../assets/ElicitEvents/OpeningCeremony.png';
 import Hacks8Logo from '../assets/ElicitEvents/Hacks8.png';
@@ -245,6 +265,81 @@ export const EventsList = [
     name: 'ACM India Chapter Summit \'23',
     image: SummitHome,
     desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+  },
+];
+
+export const GalleryList = [
+  {
+    img: G1,
+    title: 'Elicit\'23 Opening Ceremony',
+  },
+  {
+    img: G2,
+    title: 'Elicit Expo',
+  },
+  {
+    img: G3,
+    title: 'Projects at Elicit Expo',
+  },
+  {
+    img: G4,
+    title: 'Hostel lighting and setup during Elicit\'23',
+  },
+  {
+    img: G5,
+    title: 'RoboSoccer 2.0',
+  },
+  {
+    img: G6,
+    title: 'Team Elicit\'23',
+  },
+  {
+    img: G7,
+    title: 'Eunoia - Elicit\'23 Closing Ceremony',
+  },
+  {
+    img: G8,
+    title: 'Murder Mystery',
+  },
+  {
+    img: G9,
+    title: 'Futsal held in Hostel',
+  },
+  {
+    img: G10,
+    title: 'Talk on Web Dev in 15 Minutes',
+  },
+  {
+    img: G11,
+    title: 'Talk on Big Data in 15 Minutes',
+  },
+  {
+    img: G12,
+    title: 'Projects in Innovates',
+  },
+  {
+    img: G13,
+    title: 'Open Mic',
+  },
+  {
+    img: G14,
+    title: 'RoboSoccer - Sigfest\'23',
+  },
+  {
+    img: G15,
+    title: 'Sigfest\'23 Team',
+  },
+  {
+    img: G16,
+    title: 'Innovates Projects',
+  },
+  {
+    img: G17,
+    title: 'IOT Workshop',
+  },
+  {
+    img: G18,
+    title: 'IOT Workshop',
   },
 ];
 
