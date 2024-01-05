@@ -161,6 +161,7 @@ import SigfestLogo from '../assets/SigfestEvents/SIGFESTLogo.png';
 import Datathon from '../assets/SigfestEvents/Datathon.jpg';
 import RoboSoccerSigfest from '../assets/SigfestEvents/RoboSoccer.jpg'
 import AIBotDev from '../assets/SigfestEvents/AIBotDev.jpg';
+import StockMaketShowdown from '../assets/SigfestEvents/StockMarketBanner.jpg';
 import Innovates from '../assets/SigfestEvents/Innovates.jpg';
 import IOTWorkshop from '../assets/SigfestEvents/IOTWorkshop.jpeg';
 import FifteenMinutes from '../assets/SigfestEvents/FifteenMinutes.jpg';
@@ -862,27 +863,27 @@ export const ElicitEvents = [
 export const RTEEvents = [
   {
     id: 0,
-    name: 'Murder Mystery',
+    name: '9th September, 2023',
     date: 'date',
     image: MurderMystery,
     logo: ElicitLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'MUJ ACM S-Chapter presents "Murder Mystery," a riveting experience challenging participants to decipher clues scattered across the campus, competing to solve the crime. The event aims to showcase problem-solving prowess and analytical skills. The carefully curated theme ensures both enjoyment and mental stimulation, promoting a dynamic environment for honing problem-solving, teamwork, and communication skills. This unique experience fosters collaboration, enjoyment, and the cultivation of robust problem-solving abilities.',
   },
   {
     id: 1,
     name: 'Elevate',
-    date: 'date',
+    date: '16th September, 2023',
     image: Elevate,
     logo: ElicitLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'Elevate was a business strategy and negotiation event wherein participants presented startup ideas, assessed on diverse criteria. Selected individuals engaged in negotiations for capital and essential resources. Negotiations included participants and organizers, securing materials and contracts. At the event\'s conclusion, participants\' contracts and deals underwent analysis, evaluating strategies and goals based on criteria like feasibility. The competition fostered a formalized environment, encouraging strategic thinking and effective negotiation skills in the business realm.',
   },
   {
     id: 2,
     name: 'Futsal',
-    date: 'date',
+    date: '23rd September, 2023',
     image: Futsal,
     logo: ElicitLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'Futsal, a formally organized outdoor soccer variant, brought together participants in a spirited competition that unfolded on the open field. Played with precision and agility, this fast-paced sport demanded skilled ball control and swift decision-making. The game, with its emphasis on teamwork and athleticism, provided a dynamic platform for showcasing soccer prowess in a structured and organized outdoor environment.',
   },
 ];
 
@@ -891,7 +892,7 @@ export const OurEvents = [
   {
     id: 0,
     name: 'ACM India Chapter Summit\'23',
-    date: 'date',
+    date: '21st-22nd December, 2023',
     image: SummitHome,
     logo: ACMLogo,
     description: 'Lorem Ipsum kaafi saara',
@@ -899,34 +900,34 @@ export const OurEvents = [
   {
     id: 1,
     name: 'ISDS\'23',
-    date: 'date',
+    date: '8th-9th November, 2023',
     image: ISDSHome,
     logo: ACMLogo,
     description: 'In a vibrant environment environment where concepts were cultivatived, insights exchanged and meaningful connections established, the ISDS stood testament to an unwavering pursuit of knowledge and a celebration of diverse perspectives.',
   },
   {
     id: 2,
-    name: 'Gitverse Workshop',
-    date: 'date',
+    name: 'Web3 Workshop',
+    date: '22nd August, 2023',
     image: EventTemp,
     logo: ACMLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'Lumos Academy orchestrated a comprehensive Web3 online workshop, imparting cutting-edge insights into blockchain technology and decentralized applications. Held in the past, participants immersed themselves in formal lectures and interactive sessions, delving into the intricacies of Web3 advancements. The workshop facilitated an in-depth understanding of blockchain\'s transformative potential. Attendees, benefiting from expert guidance, gained a nuanced perspective on the evolving landscape of decentralized technologies.',
   },
   {
     id: 3,
-    name: 'Web3 Workshop',
-    date: 'date',
+    name: 'Gitverse Workshop',
+    date: '17th June, 2023',
     image: EventTemp,
     logo: ACMLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'The one-hour GitHub session aimed to impart important knowledge and explain the fundamentals of GitHub and its workings to the attendees. The well-known code hosting site GitHub offers collaboration and version control capabilities for software development projects. This workshop was attended by seventy individuals. Upon completion of the course, participants possessed a comprehensive comprehension of GitHub\'s functionalities and its use in managing code repositories and fostering teamwork.',
   },
   {
     id: 4,
     name: 'Research Paper Talk',
-    date: 'date',
+    date: '15th June, 2023',
     image: EventTemp,
     logo: ACMLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'A research paper written by students under the guidance of the proferssor to write a aper which is based on abnormality detection and also written these using various concepts on ai machine learning and other concept to deliver the result produced.',
   },
   {
     id: 5,
@@ -934,7 +935,7 @@ export const OurEvents = [
     date: '18th March, 2023',
     image: EventTemp,
     logo: ACMLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'Voice of Tech, a groundbreaking event , transformed students into dynamic tech companies, participants engaged in spirited debates, negotiations, and collaborations to address industry challenges. This immersive experience fostered innovation, strategic thinking, and enhanced understanding of the tech landscape. The event showcased the next generation of tech leaders, poised to shape the future of the industry.',
   },
 ];
 
@@ -968,7 +969,7 @@ export const SigfestEvents = [
     id: 3,
     name: 'Stock Market Showdown',
     date: null,
-    image: EventTemp,
+    image: StockMaketShowdown,
     logo: SigfestLogo,
     description: 'The Stock Market Showdown, a captivating week-long competition, immersed students in the dynamic world of trading on the StockGro App, where they were armed with a simulated INR 10 lakhs. The event unfolded as a thrilling spectacle of financial acumen, with participants vying to achieve the highest profit by March 4th. The competition attracted an impressive turnout, boasting over 1000 participants. Their strategic maneuvers and market insights transformed the Stock Market Showdown into a glorious showcase of not only individual skill but also the collective enthusiasm and intellect of the participating students.',
   },
