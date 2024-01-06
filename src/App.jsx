@@ -1,7 +1,7 @@
 /** 
  * FileName - App.jsx
  * FileType - .jsx (React Js file)
- * Lines - 84
+ * Lines - 112
  * Created On - 15/8/2023, 01:19:20
  * Author - Joy Brar
  * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
@@ -11,10 +11,10 @@
 import React, { lazy, Suspense } from 'react';
 import { useScroll, motion, useSpring } from 'framer-motion';
 import { Navbar, Footer } from './Sections';
-import { Route, Router, Routes, Outlet, Link } from 'react-router-dom';
+import { Route, Router, Routes } from 'react-router-dom';
 import Loader from './components/Loader';
 const HomePage = React.lazy(() => import('./pages/HomePage'));
-const TeamPage = lazy(() => import('./pages/TeamPage'));
+const TeamPage = React.lazy(() => import('./pages/TeamPage'));
 const EventsPage = React.lazy(() => import('./pages/EventsPage'));
 const BlogsPage = React.lazy(() => import('./pages/BlogsPage'));
 const ProjectsPage = React.lazy(() => import('./pages/ProjectsPage'));

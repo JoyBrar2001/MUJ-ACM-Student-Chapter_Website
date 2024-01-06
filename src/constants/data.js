@@ -878,8 +878,8 @@ export const ElicitEvents = [
 export const RTEEvents = [
   {
     id: 0,
-    name: '9th September, 2023',
-    date: 'date',
+    name: 'Murder Mystery',
+    date: '9th September, 2023',
     image: MurderMystery,
     logo: ElicitLogo,
     description: 'MUJ ACM S-Chapter presents "Murder Mystery," a riveting experience challenging participants to decipher clues scattered across the campus, competing to solve the crime. The event aims to showcase problem-solving prowess and analytical skills. The carefully curated theme ensures both enjoyment and mental stimulation, promoting a dynamic environment for honing problem-solving, teamwork, and communication skills. This unique experience fosters collaboration, enjoyment, and the cultivation of robust problem-solving abilities.',

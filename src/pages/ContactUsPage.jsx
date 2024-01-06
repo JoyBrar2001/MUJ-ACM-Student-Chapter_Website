@@ -37,7 +37,7 @@ const ContactUsPage = () => {
             </div>
             <div>
               <h4 className='text-xl font-semibold'>Manipal University Jaipur</h4>
-              <p className='text-sm font-light'>MUJ ACM SIGAI Student Chapter Manipal University Jaipur, Dehmi Kalan, Near GVK Toll Plaza, Jaipur-Ajmer Expressway, Jaipur, Rajasthan 303007</p>
+              <p className='text-sm font-light'>MUJ ACM Student Student Chapter Manipal University Jaipur, Dehmi Kalan, Near GVK Toll Plaza, Jaipur-Ajmer Expressway, Jaipur, Rajasthan 303007</p>
             </div>
           </div>
           <div className='flex flex-row gap-2 justify-start items-center'>
@@ -45,8 +45,7 @@ const ContactUsPage = () => {
               <MdOutlinePhoneCallback size={30} color='white' />
             </div>
             <div>
-              <p className='text-lg font-medium'>+91 6969696969</p>
-              <p className='text-lg font-medium'>+91 6969696969</p>
+              <p className='text-lg font-medium'>+91 9987778800</p>
             </div>
           </div>
           <div className='flex flex-row gap-2 justify-start items-center'>
@@ -54,7 +53,7 @@ const ContactUsPage = () => {
               <MdOutlineMailOutline size={30} color='white' />
             </div>
             <div>
-              <p className='text-lg font-medium'>falanadhimka@email.com</p>
+              <p className='text-lg font-medium'>acmmuj@gmail.com</p>
             </div>
           </div>
         </div>
