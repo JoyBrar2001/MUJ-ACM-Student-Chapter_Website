@@ -102,6 +102,6 @@ html{
   }
 
   .titleStyles{
-    @apply text-center text-6xl md:text-7xl lg:text-7xl font-bold uppercase;
+    @apply text-center text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-bold uppercase;
   }
 }

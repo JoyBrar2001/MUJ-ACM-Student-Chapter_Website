@@ -18,6 +18,7 @@ const EventsPage = React.lazy(() => import('./pages/EventsPage'));
 const BlogsPage = React.lazy(() => import('./pages/BlogsPage'));
 const ProjectsPage = React.lazy(() => import('./pages/ProjectsPage'));
 const GalleryPage = React.lazy(() => import('./pages/GalleryPage'));
+const ContactUsPage = React.lazy(() => import('./pages/ContactUsPage'));
 
 const App = () => {
   const { scrollYProgress } = useScroll()
@@ -81,6 +82,15 @@ const App = () => {
           element={
             <React.Suspense>
               <ProjectsPage />
+            </React.Suspense>
+          }
+        />
+        {/* Contact Us Page */}
+        <Route
+          path='/contact'
+          element={
+            <React.Suspense>
+              <ContactUsPage />
             </React.Suspense>
           }
         />

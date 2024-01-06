@@ -106,6 +106,7 @@ import ProjTemp from '../assets/Project.jpg';
 import EventTemp from '../assets/EventTemp.jpg';
 
 // Gallery Page Photo Imports
+import G0 from '../assets/GalleryPage/G-0.jpg';
 import G1 from '../assets/GalleryPage/G-1.jpg';
 import G2 from '../assets/GalleryPage/G-2.jpg';
 import G3 from '../assets/GalleryPage/G-3.jpg';
@@ -124,6 +125,8 @@ import G15 from '../assets/GalleryPage/G-15.jpg';
 import G16 from '../assets/GalleryPage/G-16.jpg';
 import G17 from '../assets/GalleryPage/G-17.jpg';
 import G18 from '../assets/GalleryPage/G-18.jpg';
+import G19 from '../assets/GalleryPage/G-19.jpg';
+import G20 from '../assets/GalleryPage/G-20.jpg';
 
 // Elicit Event Logos
 import OpeningCeremonyLogo from '../assets/ElicitEvents/OpeningCeremony.png';
@@ -280,6 +283,10 @@ export const EventsList = [
 
 export const GalleryList = [
   {
+    img: G0,
+    title: 'MUJ ACM Chapter Lightbox',
+  },
+  {
     img: G1,
     title: 'Elicit\'23 Opening Ceremony',
   },
@@ -350,6 +357,14 @@ export const GalleryList = [
   {
     img: G18,
     title: 'IOT Workshop',
+  },
+  {
+    img: G19,
+    title: 'Flag Hoisted at Elicit\'23',
+  },
+  {
+    img: G20,
+    title: 'ACM India Chapter Summit\'23 at MUJ',
   },
 ];
 

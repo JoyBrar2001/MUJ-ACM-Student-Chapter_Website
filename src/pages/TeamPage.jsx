@@ -26,7 +26,7 @@ const TeamPage = () => {
         variants={fadeIn('down', 40, 0.5)}
         initial="hidden"
         whileInView="show"
-        className='team__title__gradient text-center text-7xl font-bold mt-16 mb-8 uppercase w-full'
+        className='team__title__gradient titleStyles mt-12 mb-2'
       >
         The Team
       </motion.h1>
@@ -35,18 +35,18 @@ const TeamPage = () => {
           return (
             <div key={index}>
               {
-                index%4 == 0 && index != TeamHeadsList.length-1 ?
-                <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
-                : 
-                (index+2)%4 == 0 && index != TeamHeadsList.length-1 ?
-                <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[140%] translate-y-[40%]' />
-                :null
+                index % 4 == 0 && index != TeamHeadsList.length - 1 ?
+                  <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[-50%] translate-y-[40%]' />
+                  :
+                  (index + 2) % 4 == 0 && index != TeamHeadsList.length - 1 ?
+                    <div className='absolute w-[600px] h-[600px] blue__gradient translate-x-[140%] translate-y-[40%]' />
+                    : null
               }
               <motion.h1
                 variants={fadeIn('down', 40, 0.5)}
                 initial="hidden"
                 whileInView="show"
-                className='team__title__gradient text-center text-5xl font-bold mt-8 mb-14 uppercase w-full'
+                className='team__title__gradient text-center text-4xl sm:text-5xl md:text-6xl font-bold uppercase mt-6 md:mt-6 mb-12 md:mb-14'
               >
                 {team.teamName}
               </motion.h1>

@@ -21,7 +21,7 @@ const Projects = () => {
         variants={fadeIn('down', 40, 0.5)}
         initial="hidden"
         whileInView="show"
-        className='team__title__gradient text-center text-7xl font-bold my-20 uppercase w-full'
+        className='team__title__gradient titleStyles my-10 lg:my-20 uppercase w-full'
       >
         Projects
       </motion.h1>
