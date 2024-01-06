@@ -11,9 +11,10 @@
 import React, { lazy, Suspense } from 'react';
 import { useScroll, motion, useSpring } from 'framer-motion';
 import { Navbar, Footer } from './Sections';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Router, Routes, Outlet, Link } from 'react-router-dom';
+import Loader from './components/Loader';
 const HomePage = React.lazy(() => import('./pages/HomePage'));
-const TeamPage = React.lazy(() => import('./pages/TeamPage'));
+const TeamPage = lazy(() => import('./pages/TeamPage'));
 const EventsPage = React.lazy(() => import('./pages/EventsPage'));
 const BlogsPage = React.lazy(() => import('./pages/BlogsPage'));
 const ProjectsPage = React.lazy(() => import('./pages/ProjectsPage'));
@@ -35,7 +36,7 @@ const App = () => {
         <Route
           path='/'
           element={
-            <React.Suspense>
+            <React.Suspense fallback={<Loader />}>
               <HomePage />
             </React.Suspense>
           }
@@ -44,7 +45,7 @@ const App = () => {
         <Route
           path='/team'
           element={
-            <React.Suspense>
+              <React.Suspense fallback={<Loader />}>
               <TeamPage />
             </React.Suspense>
           }
@@ -53,7 +54,7 @@ const App = () => {
         <Route
           path='/events'
           element={
-            <React.Suspense>
+            <React.Suspense fallback={<Loader />}>
               <EventsPage />
             </React.Suspense>
           }
@@ -62,7 +63,7 @@ const App = () => {
         <Route
           path='/gallery'
           element={
-            <React.Suspense>
+            <React.Suspense fallback={<Loader />}>
               <GalleryPage />
             </React.Suspense>
           }
@@ -71,7 +72,7 @@ const App = () => {
         <Route
           path='/blogs'
           element={
-            <React.Suspense>
+            <React.Suspense fallback={<Loader />}>
               <BlogsPage />
             </React.Suspense>
           }
@@ -80,7 +81,7 @@ const App = () => {
         <Route
           path='/projects'
           element={
-            <React.Suspense>
+            <React.Suspense fallback={<Loader />}>
               <ProjectsPage />
             </React.Suspense>
           }
@@ -89,7 +90,7 @@ const App = () => {
         <Route
           path='/contact'
           element={
-            <React.Suspense>
+            <React.Suspense fallback={<Loader />}>
               <ContactUsPage />
             </React.Suspense>
           }
@@ -100,5 +101,12 @@ const App = () => {
     </div>
   );
 }
+
+// DO NOT TOUCH the wait function
+// function wait(time){
+//   return new Promise(resolve => {
+//     setTimeout(resolve, time)
+//   })
+// }
 
 export default App;
