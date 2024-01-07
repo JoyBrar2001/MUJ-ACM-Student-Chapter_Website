@@ -277,7 +277,7 @@ export const EventsList = [
     id: 'event-5',
     name: 'ACM India Chapter Summit \'23',
     image: SummitHome,
-    desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia repellat ipsam consectetur iure eveniet tempore voluptas non sapiente sint obcaecati.',
+    desc: 'In a profound 2 day journey, involving well curated technical talks, open discussions and panel debates; the ACM India Chapter Summit became a warehouse where knowledge was shared and innovative ways were explored, which could be used to advance our spectrum in the field of computing.',
   },
 ];
 
@@ -296,7 +296,7 @@ export const GalleryList = [
   },
   {
     img: G3,
-    title: 'Projects at Elicit Expo',
+    title: 'Elicit Expo',
   },
   {
     img: G4,
@@ -324,15 +324,15 @@ export const GalleryList = [
   },
   {
     img: G10,
-    title: 'Talk on Web Dev in 15 Minutes',
+    title: 'Talk on Web Dev',
   },
   {
     img: G11,
-    title: 'Talk on Big Data in 15 Minutes',
+    title: 'Talk on Big Data',
   },
   {
     img: G12,
-    title: 'Projects in Innovates',
+    title: 'Innovates',
   },
   {
     img: G13,
@@ -910,7 +910,7 @@ export const OurEvents = [
     date: '21st-22nd December, 2023',
     image: SummitHome,
     logo: ACMLogo,
-    description: 'Lorem Ipsum kaafi saara',
+    description: 'In a profound 2 day journey, involving well curated technical talks, open discussions and panel debates; the ACM India Chapter Summit became a warehouse where knowledge was shared and innovative ways were explored, which could be used to advance our spectrum in the field of computing.',
   },
   {
     id: 1,
