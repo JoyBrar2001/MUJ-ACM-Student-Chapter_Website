@@ -40,6 +40,9 @@ import CncAutomaticDrawingMachine from  '../assets/Projects/CncAutomaticDrawingM
 import RoboticArm from  '../assets/Projects/RoboticArm.jpeg';
 import EyeTracker from  '../assets/Projects/EyeTracker.png';
 import TextExtractor from  '../assets/Projects/TextExtractor.png';
+import NLP from '../assets/Projects/NLP.jpg';
+import SightScope from '../assets/Projects/SightScope.jpg';
+import TaskVision from '../assets/Projects/TaskVision.jpg';
 
 // Team Head Import
 // Community Managers
@@ -372,9 +375,9 @@ export const GalleryList = [
 export const ProjectsList = [
   {
     id: 'Project-1',
-    photo: ProjTemp,
-    title: 'Task vision',
-    description: 'In the grand pursuit of advancement, ACM Xperience propels the domain of task management into a regal future with Task Vision—a cutting-edge 3D augmented reality-based application for to-do lists. Here, users seamlessly conjure and arrange tasks within a three-dimensional expanse, introducing a visually captivating and novel dimension to the organization of duties. Behold, a splendid and innovative approach to the orchestration of tasks ',
+    photo: SightScope,
+    title: 'Sight Scope',
+    description: 'Under the umbrella of ACM Xperience, Sight Scope addresses accessibility concerns by employing AI to generate descriptive captions for images. This innovative approach assists individuals with visual impairments, enriching their digital experience by providing detailed information about the content of images.',
   },
   {
     id: 'Project-2',
@@ -384,19 +387,19 @@ export const ProjectsList = [
   },
   {
     id: 'Project-3',
-    photo: ProjTemp,
-    title: 'Sight Scope',
-    description: 'Under the umbrella of ACM Xperience, Sight Scope addresses accessibility concerns by employing AI to generate descriptive captions for images. This innovative approach assists individuals with visual impairments, enriching their digital experience by providing detailed information about the content of images.',
-  },
-  {
-    id: 'Project-4',
     photo: ReinforcementLearningBasedTradingBot,
     title: 'Reinforcement learning based trading bot',
     description: 'Within the realm of ACM Xperience, this project redefines stock trading strategies by leveraging reinforcement learning for intelligent decision-making. Adapting and learning from market conditions, it exemplifies the transformative potential of AI in optimizing trading algorithms and decision processes.',
   },
   {
+    id: 'Project-4',
+    photo: TaskVision,
+    title: 'Task vision',
+    description: 'In the grand pursuit of advancement, ACM Xperience propels the domain of task management into a regal future with Task Vision—a cutting-edge 3D augmented reality-based application for to-do lists. Here, users seamlessly conjure and arrange tasks within a three-dimensional expanse, introducing a visually captivating and novel dimension to the organization of duties. Behold, a splendid and innovative approach to the orchestration of tasks ',
+  },
+  {
     id: 'Project-5',
-    photo: ProjTemp,
+    photo: NLP,
     title: 'NLP based system for prior authorisation',
     description: 'Within the ACM Xperience framework, this project streamlines insurance processes by leveraging natural language processing for efficient prior authorization. It highlights the transformative potential of NLP in the insurance sector, enhancing the speed and accuracy of processing insurance claims.',
   },
