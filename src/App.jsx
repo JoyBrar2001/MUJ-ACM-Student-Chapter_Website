@@ -34,7 +34,7 @@ const App = () => {
       <Routes>
         {/* Home Page */}
         <Route
-          path='/'
+          path='/MUJ-ACM-Student-Chapter_Website/'
           element={
             <React.Suspense fallback={<Loader />}>
               <HomePage />
@@ -43,7 +43,7 @@ const App = () => {
         />
         {/* Team Page */}
         <Route
-          path='/team'
+          path='/MUJ-ACM-Student-Chapter_Website/team'
           element={
               <React.Suspense fallback={<Loader />}>
               <TeamPage />
@@ -52,7 +52,7 @@ const App = () => {
         />
         {/* Events Page */}
         <Route
-          path='/events'
+          path='/MUJ-ACM-Student-Chapter_Website/events'
           element={
             <React.Suspense fallback={<Loader />}>
               <EventsPage />
@@ -61,7 +61,7 @@ const App = () => {
         />
         {/* Gallery Page */}
         <Route
-          path='/gallery'
+          path='/MUJ-ACM-Student-Chapter_Website/gallery'
           element={
             <React.Suspense fallback={<Loader />}>
               <GalleryPage />
@@ -70,7 +70,7 @@ const App = () => {
         />
         {/* Blogs Page */}
         <Route
-          path='/blogs'
+          path='/MUJ-ACM-Student-Chapter_Website/blogs'
           element={
             <React.Suspense fallback={<Loader />}>
               <BlogsPage />
@@ -79,7 +79,7 @@ const App = () => {
         />
         {/* Projects Page */}
         <Route
-          path='/projects'
+          path='/MUJ-ACM-Student-Chapter_Website/projects'
           element={
             <React.Suspense fallback={<Loader />}>
               <ProjectsPage />
@@ -88,7 +88,7 @@ const App = () => {
         />
         {/* Contact Us Page */}
         <Route
-          path='/contact'
+          path='/MUJ-ACM-Student-Chapter_Website/contact'
           element={
             <React.Suspense fallback={<Loader />}>
               <ContactUsPage />
