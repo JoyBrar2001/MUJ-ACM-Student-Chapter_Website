@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* Left Side */}
       <Link 
         onClick={ScrollToTop} 
-        to="/" 
+        to="/MUJ-ACM-Student-Chapter_Website/" 
         className='flex justify-center items-center gap-3'
       >
         <img src={ACMLogo} alt="ACM Logo" className='h-[55px] w-[55px]' />
@@ -47,42 +47,42 @@ const Navbar = () => {
       </Link>
       {/* Right Side */}
       <ul className='hidden lg:flex gap-6 text-md pr-4 z-10'>
-        <li className='navbar-li'><Link to="/" onClick={ScrollToTop}>Home</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/" onClick={ScrollToTop}>Home</Link></li>
         <li className='navbar-li'><a href="#About">About Us</a></li>
-        <li className='navbar-li'><Link to="/team" onClick={ScrollToTop}>Team</Link></li>
-        <li className='navbar-li'><Link to="/events" onClick={ScrollToTop}>Events</Link></li>
-        <li className='navbar-li'><Link to="/gallery" onClick={ScrollToTop}>Gallery</Link></li>
-        <li className='navbar-li'><Link to="/blogs" onClick={ScrollToTop}>Blogs</Link></li>
-        <li className='navbar-li'><Link to="/projects" onClick={ScrollToTop}>Projects</Link></li>
-        <li className='navbar-li'><Link to="/contact" onClick={ScrollToTop}>Contact Us</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/team" onClick={ScrollToTop}>Team</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/events" onClick={ScrollToTop}>Events</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/gallery" onClick={ScrollToTop}>Gallery</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/blogs" onClick={ScrollToTop}>Blogs</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/projects" onClick={ScrollToTop}>Projects</Link></li>
+        <li className='navbar-li'><Link to="/MUJ-ACM-Student-Chapter_Website/contact" onClick={ScrollToTop}>Contact Us</Link></li>
       </ul>
 
       <BiMenuAltRight className='lg:hidden cursor-pointer z-10' onClick={handleNav} color='white' size={35} />
       <ul className={`absolute top-0 left-0 pt-10 z-50 w-full bg-gradient-to-b from-black/80 via-black/70 via-70% to-transparent flex flex-col justify-center items-center gap-4 py-6 text-xl transition-all duration-300 lg:hidden ${navbar ? 'translate-x-0' : 'translate-x-[-100%]'} `}>
         <AiOutlineClose className='absolute top-5 right-5 cursor-pointer' color='white' size={35} onClick={handleNav} />
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
-          <Link to="/">Home</Link>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/">Home</Link>
         </li>
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
           <a href="#About">About Us</a>
         </li>
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
-          <Link to="/team">Team</Link>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/team">Team</Link>
         </li>
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
-          <Link to="/events">Events</Link>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/events">Events</Link>
         </li>
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
-          <Link to="/blogs">Blogs</Link>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/blogs">Blogs</Link>
         </li>
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/gallery">Gallery</Link>
         </li>
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
-          <Link to="/projects">Projects</Link>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/projects">Projects</Link>
         </li>
         <li onClick={handleNav} className='navbar-li border-b-[1px] border-b-gray-500'>
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/MUJ-ACM-Student-Chapter_Website/contact">Contact Us</Link>
         </li>
         <div className='bg-transparent h-16' />
       </ul>
