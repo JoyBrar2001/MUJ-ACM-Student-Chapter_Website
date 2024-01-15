@@ -1,0 +1,1 @@
+import{r as s,j as e}from"./index-b552d90f.js";const t=()=>(s.useEffect(()=>(window.scrollTo(0,0),()=>{window.scrollTo(0,0)}),[]),e.jsx("div",{className:"h-screen flex justify-center items-center",children:e.jsx("p",{className:"text-white",children:"Blogs"})}));export{t as default};
