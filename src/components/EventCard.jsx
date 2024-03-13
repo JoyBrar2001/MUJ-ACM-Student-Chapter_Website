@@ -4,7 +4,7 @@
  * Lines - 44
  * Created On - 15/8/2023, 01:19:20
  * Author - Joy Brar
- * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * See - https://github.com/JoyBrar2001
  * Description - This exports Core Event as seen in the home page
 */
 
@@ -36,7 +36,7 @@ const EventCard = ({ id, index, name, image, desc, active, handleHover }) => {
               desc.length > 250 ? desc.slice(0, 200) + '...' : desc
             }
           </p>
-          <Link to="/MUJ-ACM-Student-Chapter_Website/events">
+          <Link to="/events">
             <p className='flex justify-start items-center gap-1 text-xs opacity-80'>View More<BsArrowUpRight /></p>
           </Link>
         </div>

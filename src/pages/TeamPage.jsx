@@ -1,7 +1,7 @@
 /** 
  * FileName - TeamPage.jsx
  * FileType - .jsx (React Js file)
- * Lines - 77
+ * Lines - 78
  * Created On - 21/8/2023, 01:19:20
  * Author - Joy Brar
  * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website

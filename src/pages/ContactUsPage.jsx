@@ -1,3 +1,13 @@
+/** 
+ * FileName - ContactUsPage.jsx
+ * FileType - .jsx (React Js file)
+ * Lines - 87
+ * Created On - 21/8/2023, 01:19:20
+ * Author - Joy Brar
+ * See - https://github.com/JoyBrar2001/MUJ-ACM-Student-Chapter_Website
+ * Description - Contact page of the website
+*/
+
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../constants/motion';
