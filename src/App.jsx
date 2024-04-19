@@ -11,7 +11,7 @@
 import React, { lazy, Suspense } from 'react';
 import { useScroll, motion, useSpring } from 'framer-motion';
 import { Navbar, Footer } from './Sections';
-import { Route, Router, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Loader from './components/Loader';
 const HomePage = React.lazy(() => import('./pages/HomePage'));
 const TeamPage = React.lazy(() => import('./pages/TeamPage'));
